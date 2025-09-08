@@ -1,4 +1,4 @@
-# Directions and Reqeusted Word Count
+# Directions and Requested Word Count
 
 ## Title and Introduction
 (2 points): Describing background information and importance of each problem
@@ -40,7 +40,7 @@
 ## Review
 ## Tentative schedule and task distribution 
 
-# Rought Draft Verbiage
+# Rough Draft Verbiage
 ## Title and Introduction
 ## Data 
 ## Methods
