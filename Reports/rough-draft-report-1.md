@@ -49,7 +49,58 @@ One Finish non-profit said, “The ethical perspective means that homelessness h
 
 We will be building a model to predict the size of the homeless population in local areas based on economic and demographic data. We will also identify the importance of each predictor to better understand what impacts the overall size of the homeless population. Identifying these variables could inform policy makers on strategy and policy development to help decrease homelessness. While predicting the number of people suffering homelessness in a local area could help with logistics and planning. 
 
-## Data 
+## Data
+
+### Data Descriptions
+
+| Parameter	| Description |
+|----|----|
+|Total Population |	Total population of the local area (CoC coded area)|
+|Median Gross Rent |	Median gross rent for a 2-bedroom apartment.|
+|Median Household Income	| Median household income in the past 12 months.|
+|Poverty_Rate	| Poverty rate, indicating the percentage of individuals living below the poverty line.|
+|Vacancy_Rate |	Percentage of rental properties that are vacant.|
+|Renter_Household_Rate |	Percentage of households that are renter-occupied.|
+|Cost_Burdened_Rate |	Percentage of renter households paying more than 30% of their income toward rent.|
+|Unemployment_Rate |	Unemployment rate, showing the percentage of the labor force that is unemployed.|
+|Total Year-Round Beds (ES, TH, SH) |	the capacity of the homeless service system, number of permanent year-round beds across three program types.|
+|Average Temperature |	Average Temp of the local area (??)|
+|Overall Homeless |	Homeless population counts|
+|Overall Homeless Individuals |	Homeless population counts|
+|Overall Homeless People in Families |	Homeless population counts|
+|Unsheltered Homeless |	Homeless population counts|
+|Sheltered Total Homeless |	Homeless population counts|
+|Overall_Homeless_Per_Capita |	Homeless popoulation counts per capita|
+|Overall_Homeless_Individuals_Per_Capita |	Homeless popoulation counts per capita|
+|Overall_Homeless_People_in_Families_Per_Capita |	Homeless popoulation counts per capita|
+|Unsheltered_Homeless_Per_Capita |	Homeless popoulation counts per capita|
+|Sheltered_Homeless_Per_Capita |	Homeless popoulation counts per capita|
+
+### Data Sources
+
+|Parameter | Source|
+|---------|-----------|
+|Total Population |	ACS Table 'B01003_001E'|
+|Median Gross Rent |	ACS Table `B25031_004E`|
+|Median Household Income |	ACS Table `B19013_001E`|
+|Poverty_Rate |	ACS Table `B17001_001E`|
+|Vacancy_Rate |	ACS Table `B25004_001E`|
+|Renter_Household_Rate |	ACS Table `B25008_001E`|
+|Cost_Burdened_Rate |	ACS Table `B25106_006E`, `B25106_010E`, `B25106_014E`, `B25106_018E`|
+|Unemployment_Rate |	ACS Table `B23001_001E`|
+|Total Year-Round Beds (ES, TH, SH) |	HUD’s Housing Inventory Count (HIC)|
+|Average Temperature |	???|
+|Overall Homeless |	source11|
+|Overall Homeless Individuals |	source12|
+|Overall Homeless People in Families |	source13|
+|Unsheltered Homeless |	source14|
+|Sheltered Total Homeless |	source15|
+|Overall_Homeless_Per_Capita |	source16|
+|Overall_Homeless_Individuals_Per_Capita |	source17|
+|Overall_Homeless_People_in_Families_Per_Capita |	source18|
+|Unsheltered_Homeless_Per_Capita |	source19|
+|Sheltered_Homeless_Per_Capita |	source20|
+
 ## Methods
 ## Review
 ## Tentative schedule and task distribution 
