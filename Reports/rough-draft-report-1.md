@@ -66,17 +66,17 @@ Our data was obtained from the project, ‘Predictive Model Based on Homelessnes
 |Cost_Burdened_Rate |	Percentage of renter households paying more than 30% of their income toward rent.|
 |Unemployment_Rate |	Unemployment rate, showing the percentage of the labor force that is unemployed.|
 |Total Year-Round Beds (ES, TH, SH) |	the capacity of the homeless service system, number of permanent year-round beds across three program types.|
-|Average Temperature |	Average Temp of the local area (??)|
-|Overall Homeless |	Homeless population counts|
-|Overall Homeless Individuals |	Homeless population counts|
-|Overall Homeless People in Families |	Homeless population counts|
-|Unsheltered Homeless |	Homeless population counts|
-|Sheltered Total Homeless |	Homeless population counts|
-|Overall_Homeless_Per_Capita |	Homeless popoulation counts per capita|
-|Overall_Homeless_Individuals_Per_Capita |	Homeless popoulation counts per capita|
-|Overall_Homeless_People_in_Families_Per_Capita |	Homeless popoulation counts per capita|
-|Unsheltered_Homeless_Per_Capita |	Homeless popoulation counts per capita|
-|Sheltered_Homeless_Per_Capita |	Homeless popoulation counts per capita|
+|Average Temperature |	January Average Temperature of the encompassing state|
+|Overall Homeless |	All people experiencing homelessness|
+|Overall Homeless Individuals |	People experiencing homelessness not in a family|
+|Overall Homeless People in Families |	People experiencing homelessness part of a family unit|
+|Unsheltered Homeless |	People experiencing homelessness unsheltered|
+|Sheltered Total Homeless |	People experiencing homelessness in shelters|
+|Overall_Homeless_Per_Capita |	People experiencing homelessness counts per capita|
+|Overall_Homeless_Individuals_Per_Capita |	People experiencing homelessness counts per capita|
+|Overall_Homeless_People_in_Families_Per_Capita |	People experiencing homelessness counts per capita|
+|Unsheltered_Homeless_Per_Capita |	People experiencing homelessness popoulation counts per capita|
+|Sheltered_Homeless_Per_Capita |	People experiencing homelessness popoulation counts per capita|
 
 ### Data Sources
 
