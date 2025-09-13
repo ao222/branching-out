@@ -91,17 +91,24 @@ Our data was obtained from the project, ‘Predictive Model Based on Homelessnes
 |Cost_Burdened_Rate |	ACS Table `B25106_006E`, `B25106_010E`, `B25106_014E`, `B25106_018E`|
 |Unemployment_Rate |	ACS Table `B23001_001E`|
 |Total Year-Round Beds (ES, TH, SH) |	HUD’s Housing Inventory Count (HIC)|
-|Average Temperature |	???|
-|Overall Homeless |	source11|
-|Overall Homeless Individuals |	source12|
-|Overall Homeless People in Families |	source13|
-|Unsheltered Homeless |	source14|
-|Sheltered Total Homeless |	source15|
-|Overall_Homeless_Per_Capita |	source16|
-|Overall_Homeless_Individuals_Per_Capita |	source17|
-|Overall_Homeless_People_in_Families_Per_Capita |	source18|
-|Unsheltered_Homeless_Per_Capita |	source19|
-|Sheltered_Homeless_Per_Capita |	source20|
+|Average Temperature |	National Centers for Environmental Information (NOAA) |
+|Overall Homeless |	HUD's Point in Time Count|
+|Overall Homeless Individuals |	HUD's Point in Time Count|
+|Overall Homeless People in Families |	HUD's Point in Time Count|
+|Unsheltered Homeless |	HUD's Point in Time Count|
+|Sheltered Total Homeless |	HUD's Point in Time Count|
+|Overall_Homeless_Per_Capita |	HUD's Point in Time Count|
+|Overall_Homeless_Individuals_Per_Capita |	HUD's Point in Time Count|
+|Overall_Homeless_People_in_Families_Per_Capita |	HUD's Point in Time Count|
+|Unsheltered_Homeless_Per_Capita |	HUD's Point in Time Count|
+|Sheltered_Homeless_Per_Capita |	HUD's Point in Time Count|
+
+### Data Details
+
+#### ACS Tables
+#### HIC
+#### PIT
+#### NCEI
 
 ## Methods
 ## Review
