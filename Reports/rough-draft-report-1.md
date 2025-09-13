@@ -33,13 +33,6 @@
 ## Organization (1 point):
  The structure and placement of the content should be at a good academic level. The report should be 5-6 pages.
 
-# Outline
-## Title and Introduction
-## Data 
-## Methods
-## Review
-## Tentative schedule and task distribution 
-
 # Forecasting Homelessness: A Community Data Approach
 ## Background
 
