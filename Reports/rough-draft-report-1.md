@@ -51,6 +51,8 @@ We will be building a model to predict the size of the homeless population in lo
 
 ## Data
 
+Our data was obtained from the project, ‘Predictive Model Based on Homelessness’ located at this [GitHub repo](https://github.com/BU-Spark/ds-ciss-predictive-homlessness/tree/main). The file [Final_Dataset.csv](https://github.com/BU-Spark/ds-ciss-predictive-homlessness/blob/76d8be480f6b32075f4193776988ed61aac92687/Final_Dataset.csv) contains 20 columns prepared by combining various government datasets. Below are tables representing the 20 columns, their descriptions, and their sources. This information was obtained from dataset documentation at the above repo.
+
 ### Data Descriptions
 
 | Parameter	| Description |
