@@ -121,5 +121,28 @@ Veterans| | |
 #### NCEI
 
 ## Methods
+
+### Leaderboard
+Model|MAE|MSE|RMSE|R2|RMSLE|MAPE|TT (Sec)
+|-|-|-|-|-|-|-|
+CatBoost Regressor|0.0005|0.0|0.0008|0.7869|0.0008|0.3289|3.692
+Extra Trees Regressor|0.0004|0.0|0.0008|0.7798|0.0008|0.3294|0.28
+Light Gradient Boosting Machine|0.0005|0.0|0.0009|0.7468|0.0009|0.3464|0.316
+Random Forest Regressor|0.0005|0.0|0.0009|0.7315|0.0009|0.3481|0.57
+Gradient Boosting Regressor|0.0006|0.0|0.001|0.6686|0.001|0.4305|0.278
+K Neighbors Regressor|0.0006|0.0|0.001|0.6583|0.001|0.4306|0.08
+Decision Tree Regressor|0.0006|0.0|0.0013|0.4422|0.0013|0.4105|0.048
+Bayesian Ridge|0.0009|0.0|0.0015|0.3382|0.0014|0.7461|0.022
+Least Angle Regression|0.0009|0.0|0.0015|0.3381|0.0014|0.7462|0.028
+Ridge Regression|0.0009|0.0|0.0015|0.3381|0.0014|0.7462|0.044
+Linear Regression|0.0009|0.0|0.0015|0.3381|0.0014|0.7462|9.166
+Orthogonal Matching Pursuit|0.001|0.0|0.0016|0.2296|0.0016|0.847|0.024
+Huber Regressor|0.0009|0.0|0.0016|0.1986|0.0016|0.568|0.036
+Lasso Regression|0.0012|0.0|0.0018|-0.0018|0.0018|1.0766|1.94
+Elastic Net|0.0012|0.0|0.0018|-0.0018|0.0018|1.0766|0.038
+Lasso Least Angle Regression|0.0012|0.0|0.0018|-0.0018|0.0018|1.0766|0.028
+Dummy Regressor|0.0012|0.0|0.0018|-0.0018|0.0018|1.0766|0.024
+AdaBoost Regressor|0.0017|0.0|0.0019|-0.1044|0.0019|1.8322|0.138
+Passive Aggressive Regressor|0.0018|0.0|0.0026|-1.0549|0.0025|1.0|0.026
 ## Review
 ## Tentative schedule and task distribution 
