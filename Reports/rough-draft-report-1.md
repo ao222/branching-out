@@ -124,7 +124,7 @@ Veterans| | |
 
 ### Leaderboard
 Model|MAE|MSE|RMSE|R2|RMSLE|MAPE|TT (Sec)
-|-|-|-|-|-|-|-|
+|----|---|---|----|--|-----|----|-------|
 CatBoost Regressor|0.0005|0.0|0.0008|0.7869|0.0008|0.3289|3.692
 Extra Trees Regressor|0.0004|0.0|0.0008|0.7798|0.0008|0.3294|0.28
 Light Gradient Boosting Machine|0.0005|0.0|0.0009|0.7468|0.0009|0.3464|0.316
