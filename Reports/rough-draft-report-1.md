@@ -99,7 +99,7 @@ Our data was obtained from the project, ‘Predictive Model Based on Homelessnes
 ### Data Details
 
 #### ACS Tables
-The American Community Survey, produced by the Census Bureau, carries out 3.5 million surveys each year and is the leading survey informing federal policy. It releasese three data products: 1 year estimates, 1 year supplemental estimates, and 5 year estimates. These three products represents geographies of 65,000 for the 1 year estimates, geographies of 20,000 for the 1 year supplemntal estimates, and drills down to neighborhood-level and rural counties for the 5 year estimates. In this project we rely on the 1 year supplemental estimates (TODO: confirm we use supplemental and not 1 year estimates). The ACS ask questions regarding a wide area of topics in categories of social, economic, demographic, and housing. These areas are delimitted below.
+The American Community Survey, produced by the Census Bureau, carries out 3.5 million surveys each year and is the leading survey informing federal policy. It releasese three data products: 1 year estimates, 1 year supplemental estimates, and 5 year estimates. These three products represents geographies of 65,000 for the 1 year estimates, geographies of 20,000 for the 1 year supplemntal estimates, and drills down to neighborhood-level and rural counties for the 5 year estimates. In this project we rely on the 1 year supplemental estimates **(TODO: confirm we use supplemental and not 1 year estimates).** The ACS ask questions regarding a wide area of topics in categories of social, economic, demographic, and housing. These areas are delimitted below.
 
 |Social|Economic|Demographic|Housing|
 |------|--------|-----------|-------|
