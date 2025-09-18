@@ -1,40 +1,6 @@
-# Directions and Requested Word Count
-
-## Title and Introduction
-(2 points): Describing background information and importance of each problem
-1.33 PAGES
-370 Words
-
-
-## Data 
-(1 point): Choosing and describing dataset(s) (no need for coding at this stage). Explain how the data is collected. Mention the number of observations and variables, and the description of each variable.
-.66 PAGES
-185 Words
-
-
-## Methods
- (2 points): Description and justification of the methods
-1.33 PAGES
-370 Words
-
-
-## Review
- (3 points): Review of earlier results with similar datasets. You need to cite these works at the end of the report.
-2 PAGES
-560 Words
-
-
-## Tentative schedule and task distribution 
-(1 point): Task distribution among the members. Tentative start and end date of each task. 
-.66 PAGES
-185 Words
-
-
-## Organization (1 point):
- The structure and placement of the content should be at a good academic level. The report should be 5-6 pages.
-
 # Forecasting Homelessness: A Community Data Approach
 ## Background
+**(2 points): Describing background information and importance of each problem 1.33 PAGES 370 Words**
 
 The OEDC, an economic consortium of developed nations, estimates its member nations have on average 25 people per 10,000 unhoused [source](https://www.oecd.org/en/topics/sub-issues/affordable-housing/homelessness.html). Here in the United States, data from 2024 estimates about 23 people per 10,000 are unhoused [source](https://www.developmentaid.org/news-stream/post/157797/homelessness-statistics-in-the-world). Although it seems other wealthy nations also struggle with housing their most vulnerable populations, one must ask if there is a better way. 
 
@@ -43,6 +9,7 @@ One Finish non-profit said, “The ethical perspective means that homelessness h
 We will be building a model to predict the size of the homeless population in local areas based on economic and demographic data. We will also identify the importance of each predictor to better understand what impacts the overall size of the homeless population. Identifying these variables could inform policy makers on strategy and policy development to help decrease homelessness. While predicting the number of people suffering homelessness in a local area could help with logistics and planning. 
 
 ## Data
+**(1 point): Choosing and describing dataset(s) (no need for coding at this stage). Explain how the data is collected. Mention the number of observations and variables, and the description of each variable. .66 PAGES 185 Words**
 
 Our data was obtained from the project, ‘Predictive Model Based on Homelessness’ located at this [GitHub repo](https://github.com/BU-Spark/ds-ciss-predictive-homlessness/tree/main). The file [Final_Dataset.csv](https://github.com/BU-Spark/ds-ciss-predictive-homlessness/blob/76d8be480f6b32075f4193776988ed61aac92687/Final_Dataset.csv) contains 20 columns prepared by combining various government datasets. Below are tables representing the 20 columns, their descriptions, and their sources. This information was obtained from dataset documentation at the above repo.
 
@@ -103,8 +70,10 @@ The Point-in-Time (PIT) Count is a one-night snapshot in January of how many peo
 NOAA’s statewide temperature data come from thousands of weather stations, checked for accuracy and adjusted for changes in equipment or location. These readings are mapped onto a fine grid and averaged to give reliable monthly statewide values, providing a consistent record of U.S. climate back to 1895.
 
 ## Methods
+**(2 points): Description and justification of the methods 1.33 PAGES 370 Words**
 
-A preliminary run by PyCaret produced the following table. 
+We begin by exploring models using PyCaret. PyCaret is a low-code machine learning library that automates model training, comparison, and deployment. It simplifies preprocessing data, tuning hyperparameters, evaluating performance, and exporting models. Designed for rapid experimentation, PyCaret supports classification, regression, clustering, NLP, anomaly detection, and integrates with scikit-learn and other libraries. We use it to narrow down methods for further exploration. Below is a leaderboard created by a [PyCarent run](https://github.com/ao222/branching-out/blob/32f90c1ebc2594879b1f5dad41c87ec1142d5b06/Misc/automl.ipynb).
+
 ### Leaderboard
 Model|MAE|MSE|RMSE|R2|RMSLE|MAPE|TT (Sec)
 |----|---|---|----|--|-----|----|-------|
@@ -127,5 +96,9 @@ Lasso Least Angle Regression|0.0012|0.0|0.0018|-0.0018|0.0018|1.0766|0.028
 Dummy Regressor|0.0012|0.0|0.0018|-0.0018|0.0018|1.0766|0.024
 AdaBoost Regressor|0.0017|0.0|0.0019|-0.1044|0.0019|1.8322|0.138
 Passive Aggressive Regressor|0.0018|0.0|0.0026|-1.0549|0.0025|1.0|0.026
-## Review
-## Tentative schedule and task distribution 
+
+The leaderboard shows several gradient boosting decision tree regression algorithms (CatBoost Regressor, Light Gradient Boosting, and Gradient Boosting Regressor) as reudcing the RMSE the most and increasing R^2 the most. We will select one of these methods, perhaps CatBoost or Light Gradient Boosting for further exploration. Also competing with gradient boosting for the top spot is randomn forest algorithms (Extra Trees Regressor, Random Forest Regressor). We will choose one of these methods to explore further. Therefore we will pit bagging (random forests) and boosting against each other using two different ensemble learning algorithms. Our third chosen method will be K Neighbors Regressor which has the next highest RMSE compared to the bagging and boosting algorithms.
+## Review **(3 points): Review of earlier results with similar datasets. You need to cite these works at the end of the report. 2 PAGES 560 Words**
+
+## Tentative schedule and task distribution
+**(1 point): Task distribution among the members. Tentative start and end date of each task. .66 PAGES 185 Words**
