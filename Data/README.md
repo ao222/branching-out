@@ -11,3 +11,9 @@ Housing Inventory Count by CoC. The HUD counts the housing resources used to ser
 ## Begining_Dataset.csv
 Data from NOAA, ACS, and HUD was collected, filtered, and merged to form this ML ready dataset by the team at Boston University. We will recreate their workflow and update the dataset from 2007-2023 to include data from 2024. Their file is located here. 
 [https://github.com/BU-Spark/ds-ciss-predictive-homlessness/blob/main/Final_Dataset.csv](https://github.com/BU-Spark/ds-ciss-predictive-homlessness/blob/main/Final_Dataset.csv)
+
+## climdiv-tmpcst-v1.0.0-20250905.tsv
+**TODO: add a description** [https://www.ncei.noaa.gov/pub/data/cirs/climdiv/climdiv-tmpcst-v1.0.0-20250905](https://www.ncei.noaa.gov/pub/data/cirs/climdiv/climdiv-tmpcst-v1.0.0-20250905)
+
+## state-readme.txt
+**TODO: add a description** [https://www.ncei.noaa.gov/pub/data/cirs/climdiv/state-readme.txt](https://www.ncei.noaa.gov/pub/data/cirs/climdiv/state-readme.txt)
