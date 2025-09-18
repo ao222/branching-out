@@ -90,9 +90,17 @@ Migration| | |Vehicles
 School Enrollment| | |Year Built/ Year Moved In
 Veterans| | |
 
-#### HIC
-#### PIT
+#### Housing Inventory Count (HIC)
+
+The Housing Inventory Count (HIC) is a snapshot of all the programs within a Continuum of Care (CoC) that offer beds and units specifically for people experiencing homelessness. For permanent housing projects, this includes people who were homeless when they first entered, based on HUD’s definition. The inventory is organized into five program types: Emergency Shelter, Transitional Housing, Rapid Re-Housing, Safe Haven, and Permanent Supportive Housing [https://www.hudexchange.info/programs/hdx/pit-hic/#2025-pit-count-and-hic-guidance](https://www.hudexchange.info/programs/hdx/pit-hic/#2025-pit-count-and-hic-guidance)
+
+#### Point-in-Time Count (PIT)
+
+The Point-in-Time (PIT) Count is a one-night snapshot in January of how many people are experiencing homelessness, both sheltered and unsheltered. HUD requires Continuums of Care (CoCs) to conduct this count each year for people staying in emergency shelters, transitional housing, and Safe Havens. In addition, CoCs must count unsheltered individuals every other year (in odd-numbered years). Each community is responsible for planning, organizing, and carrying out the count locally. [https://www.hudexchange.info/programs/hdx/pit-hic/#2025-pit-count-and-hic-guidance](https://www.hudexchange.info/programs/hdx/pit-hic/#2025-pit-count-and-hic-guidance)
+
 #### NCEI
+
+NOAA’s statewide temperature data come from thousands of weather stations, checked for accuracy and adjusted for changes in equipment or location. These readings are mapped onto a fine grid and averaged to give reliable monthly statewide values, providing a consistent record of U.S. climate back to 1895.
 
 ## Methods
 
