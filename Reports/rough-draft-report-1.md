@@ -70,54 +70,6 @@ Our data was obtained from the project, ‘Predictive Model Based on Homelessnes
 |Unsheltered_Homeless_Per_Capita |	People experiencing homelessness popoulation counts per capita| HUD's Point in Time Count|
 |Sheltered_Homeless_Per_Capita |	People experiencing homelessness popoulation counts per capita| HUD's Point in Time Count|
 
-| Parameter	| Description |
-|----|----|
-|Total Population |	Total population of the local area (CoC coded area)|
-|Median Gross Rent |	Median gross rent for a 2-bedroom apartment.|
-|Median Household Income	| Median household income in the past 12 months.|
-|Poverty_Rate	| Poverty rate, indicating the percentage of individuals living below the poverty line.|
-|Vacancy_Rate |	Percentage of rental properties that are vacant.|
-|Renter_Household_Rate |	Percentage of households that are renter-occupied.|
-|Cost_Burdened_Rate |	Percentage of renter households paying more than 30% of their income toward rent.|
-|Unemployment_Rate |	Unemployment rate, showing the percentage of the labor force that is unemployed.|
-|Total Year-Round Beds (ES, TH, SH) |	the capacity of the homeless service system, number of permanent year-round beds across three program types.|
-|Average Temperature |	January Average Temperature of the encompassing state|
-|Overall Homeless |	All people experiencing homelessness|
-|Overall Homeless Individuals |	People experiencing homelessness not in a family|
-|Overall Homeless People in Families |	People experiencing homelessness part of a family unit|
-|Unsheltered Homeless |	People experiencing homelessness unsheltered|
-|Sheltered Total Homeless |	People experiencing homelessness in shelters|
-|Overall_Homeless_Per_Capita |	People experiencing homelessness counts per capita|
-|Overall_Homeless_Individuals_Per_Capita |	People experiencing homelessness counts per capita|
-|Overall_Homeless_People_in_Families_Per_Capita |	People experiencing homelessness counts per capita|
-|Unsheltered_Homeless_Per_Capita |	People experiencing homelessness popoulation counts per capita|
-|Sheltered_Homeless_Per_Capita |	People experiencing homelessness popoulation counts per capita|
-
-### Data Sources
-
-|Parameter | Source|
-|---------|-----------|
-|Total Population |	ACS Table 'B01003_001E'|
-|Median Gross Rent |	ACS Table `B25031_004E`|
-|Median Household Income |	ACS Table `B19013_001E`|
-|Poverty_Rate |	ACS Table `B17001_001E`|
-|Vacancy_Rate |	ACS Table `B25004_001E`|
-|Renter_Household_Rate |	ACS Table `B25008_001E`|
-|Cost_Burdened_Rate |	ACS Table `B25106_006E`, `B25106_010E`, `B25106_014E`, `B25106_018E`|
-|Unemployment_Rate |	ACS Table `B23001_001E`|
-|Total Year-Round Beds (ES, TH, SH) |	HUD’s Housing Inventory Count (HIC)|
-|Average Temperature |	National Centers for Environmental Information (NOAA) |
-|Overall Homeless |	HUD's Point in Time Count|
-|Overall Homeless Individuals |	HUD's Point in Time Count|
-|Overall Homeless People in Families |	HUD's Point in Time Count|
-|Unsheltered Homeless |	HUD's Point in Time Count|
-|Sheltered Total Homeless |	HUD's Point in Time Count|
-|Overall_Homeless_Per_Capita |	HUD's Point in Time Count|
-|Overall_Homeless_Individuals_Per_Capita |	HUD's Point in Time Count|
-|Overall_Homeless_People_in_Families_Per_Capita |	HUD's Point in Time Count|
-|Unsheltered_Homeless_Per_Capita |	HUD's Point in Time Count|
-|Sheltered_Homeless_Per_Capita |	HUD's Point in Time Count|
-
 ### Data Details
 
 #### ACS Tables
