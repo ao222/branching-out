@@ -47,6 +47,28 @@ We will be building a model to predict the size of the homeless population in lo
 Our data was obtained from the project, ‘Predictive Model Based on Homelessness’ located at this [GitHub repo](https://github.com/BU-Spark/ds-ciss-predictive-homlessness/tree/main). The file [Final_Dataset.csv](https://github.com/BU-Spark/ds-ciss-predictive-homlessness/blob/76d8be480f6b32075f4193776988ed61aac92687/Final_Dataset.csv) contains 20 columns prepared by combining various government datasets. Below are tables representing the 20 columns, their descriptions, and their sources. This information was obtained from dataset documentation at the above repo.
 
 ### Data Descriptions
+| Parameter	| Description | Sources |
+|----|----|----|
+|Total Population |	Total population of the local area (CoC coded area)|ACS Table 'B01003_001E'|
+|Median Gross Rent |	Median gross rent for a 2-bedroom apartment.|ACS Table `B25031_004E`|
+|Median Household Income	| Median household income in the past 12 months.|ACS Table `B19013_001E`|
+|Poverty_Rate	| Poverty rate, indicating the percentage of individuals living below the poverty line.|ACS Table `B17001_001E`|
+|Vacancy_Rate |	Percentage of rental properties that are vacant.|ACS Table `B25004_001E`|
+|Renter_Household_Rate |	Percentage of households that are renter-occupied.|ACS Table `B25008_001E`|
+|Cost_Burdened_Rate |	Percentage of renter households paying more than 30% of their income toward rent.|ACS Table `B25106_006E`, `B25106_010E`, `B25106_014E`, `B25106_018E`|
+|Unemployment_Rate |	Unemployment rate, showing the percentage of the labor force that is unemployed.|ACS Table `B23001_001E`|
+|Total Year-Round Beds (ES, TH, SH) |	the capacity of the homeless service system, number of permanent year-round beds across three program types.|HUD’s Housing Inventory Count (HIC)|
+|Average Temperature |	January Average Temperature of the encompassing state| National Centers for Environmental Information (NOAA) |
+|Overall Homeless |	All people experiencing homelessness| HUD's Point in Time Count|
+|Overall Homeless Individuals |	People experiencing homelessness not in a family| HUD's Point in Time Count|
+|Overall Homeless People in Families |	People experiencing homelessness part of a family unit| HUD's Point in Time Count|
+|Unsheltered Homeless |	People experiencing homelessness unsheltered |HUD's Point in Time Count|
+|Sheltered Total Homeless |	People experiencing homelessness in shelters| HUD's Point in Time Count|
+|Overall_Homeless_Per_Capita |	People experiencing homelessness counts per capita| HUD's Point in Time Count|
+|Overall_Homeless_Individuals_Per_Capita |	People experiencing homelessness counts per capita| HUD's Point in Time Count|
+|Overall_Homeless_People_in_Families_Per_Capita |	People experiencing homelessness counts per capita| HUD's Point in Time Count|
+|Unsheltered_Homeless_Per_Capita |	People experiencing homelessness popoulation counts per capita| HUD's Point in Time Count|
+|Sheltered_Homeless_Per_Capita |	People experiencing homelessness popoulation counts per capita| HUD's Point in Time Count|
 
 | Parameter	| Description |
 |----|----|
