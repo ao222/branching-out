@@ -6,7 +6,7 @@ The OEDC, an economic consortium of developed nations, estimates its member nati
 
 One Finish non-profit said, “The ethical perspective means that homelessness has to be eliminated because human dignity belongs to everyone. A home is a human right,” [source](https://www.goodgoodgood.co/articles/finland-homeless-housing-first-approach). According to research [source](https://nlihc.org/resource/systematic-research-review-finds-benefits-housing-first-programs-us-outweigh-costs) the cost per person per year for homelessness is $18,247 while the cost of Housing First initiatives is $16,479. Therefore, society has both a moral and economic impetus to scale successful initiatives efficiently. Understanding the nature and causes of the homeless population is vital in this effort. 
 
-We will be building a model to predict the size of the homeless population in local areas based on economic and demographic data. We will also identify the importance of each predictor to better understand what impacts the overall size of the homeless population. Identifying these variables could inform policy makers on strategy and policy development to help decrease homelessness. While predicting the number of people suffering homelessness in a local area could help with logistics and planning. 
+I will be building a model to predict the size of the homeless population in local areas based on economic and demographic data. I will also identify the importance of each predictor to better understand what impacts the overall size of the homeless population. Identifying these variables could inform policy makers on strategy and policy development to help decrease homelessness. While predicting the number of people suffering homelessness in a local area could help with logistics and planning. 
 
 ## Data
 **(1 point): Choosing and describing dataset(s) (no need for coding at this stage). Explain how the data is collected. Mention the number of observations and variables, and the description of each variable. .66 PAGES 185 Words**
@@ -40,7 +40,7 @@ Our data was obtained from the project, ‘Predictive Model Based on Homelessnes
 ### Data Details
 
 #### ACS Tables
-The American Community Survey, produced by the Census Bureau, carries out 3.5 million surveys each year and is the leading survey informing federal policy. It releasese three data products: 1 year estimates, 1 year supplemental estimates, and 5 year estimates. These three products represents geographies of 65,000 for the 1 year estimates, geographies of 20,000 for the 1 year supplemntal estimates, and drills down to neighborhood-level and rural counties for the 5 year estimates. In this project we rely on the 1 year supplemental estimates **(TODO: confirm we use supplemental and not 1 year estimates).** The ACS ask questions regarding a wide area of topics in categories of social, economic, demographic, and housing. These areas are delimitted below.
+The American Community Survey, produced by the Census Bureau, carries out 3.5 million surveys each year and is the leading survey informing federal policy. It releasese three data products: 1 year estimates, 1 year supplemental estimates, and 5 year estimates. These three products represents geographies of 65,000 for the 1 year estimates, geographies of 20,000 for the 1 year supplemntal estimates, and drills down to neighborhood-level and rural counties for the 5 year estimates. In this project I rely on the 1 year supplemental estimates **(TODO: confirm I use supplemental and not 1 year estimates).** The ACS ask questions regarding a wide area of topics in categories of social, economic, demographic, and housing. These areas are delimitted below.
 
 |Social|Economic|Demographic|Housing|
 |------|--------|-----------|-------|
@@ -72,7 +72,7 @@ NOAA’s statewide temperature data come from thousands of weather stations, che
 ## Methods
 **(2 points): Description and justification of the methods 1.33 PAGES 370 Words**
 
-We begin by exploring models using PyCaret. PyCaret is a low-code machine learning library that automates model training, comparison, and deployment. It simplifies preprocessing data, tuning hyperparameters, evaluating performance, and exporting models. Designed for rapid experimentation, PyCaret supports classification, regression, clustering, NLP, anomaly detection, and integrates with scikit-learn and other libraries. We use it to narrow down methods for further exploration. Below is a leaderboard created by a [PyCarent run](https://github.com/ao222/branching-out/blob/32f90c1ebc2594879b1f5dad41c87ec1142d5b06/Misc/automl.ipynb).
+I begin by exploring models using PyCaret. PyCaret is a low-code machine learning library that automates model training, comparison, and deployment. It simplifies preprocessing data, tuning hyperparameters, evaluating performance, and exporting models. Designed for rapid experimentation, PyCaret supports classification, regression, clustering, NLP, anomaly detection, and integrates with scikit-learn and other libraries. I use it to narrow down methods for further exploration. Below is a leaderboard created by a [PyCarent run](https://github.com/ao222/branching-out/blob/32f90c1ebc2594879b1f5dad41c87ec1142d5b06/Misc/automl.ipynb).
 
 ### Leaderboard
 Model|MAE|MSE|RMSE|R2|RMSLE|MAPE|TT (Sec)
