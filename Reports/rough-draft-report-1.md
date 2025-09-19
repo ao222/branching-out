@@ -101,5 +101,10 @@ The leaderboard shows several gradient boosting decision tree regression algorit
 
 ## Review **(3 points): Review of earlier results with similar datasets. You need to cite these works at the end of the report. 2 PAGES 560 Words**
 
+Boston Universities Project organizes itself around two motivating questions. 1) To what extent can homelessness rates be predicted by measures of rent, poverty, and other housing market conditions. 2) What measures are most important in predicting homelessness. To achieve these ends the team at BU collected data from the American Community Survey or ACS and paried it with data collected by local Continuum of Care planning bodies. Additionally adding average monthly temperatures by state.
+
+They used several visualizations to bring forth certain properties of the data to light. For example 
+My project closely follows the project from Boston University and seeks to affirm or reject their conclusions by reproducing their work, updating the dataset, and following up on their recommendation to add ensemble methods with multiple objective optimization. I would also like to extend their visualizations in certain areas and also highlight Houston's relative position with other CoC's.
+
 ## Tentative schedule and task distribution
 **(1 point): Task distribution among the members. Tentative start and end date of each task. .66 PAGES 185 Words**
