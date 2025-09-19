@@ -72,7 +72,7 @@ NOAA’s statewide temperature data come from thousands of weather stations, che
 ## Methods
 **(2 points): Description and justification of the methods 1.33 PAGES 370 Words**
 
-I begin by exploring models using PyCaret. PyCaret is a low-code machine learning library that automates model training, comparison, and deployment. It simplifies preprocessing data, tuning hyperparameters, evaluating performance, and exporting models. Designed for rapid experimentation, PyCaret supports classification, regression, clustering, NLP, anomaly detection, and integrates with scikit-learn and other libraries. I use it to narrow down methods for further exploration. Below is a leaderboard created by a [PyCarent run](https://github.com/ao222/branching-out/blob/32f90c1ebc2594879b1f5dad41c87ec1142d5b06/Misc/automl.ipynb).
+I begin by exploring models using PyCaret. PyCaret is a low-code machine learning library that automates model training, comparison, and deployment. It simplifies preprocessing data, tuning hyperparameters, evaluating performance, and exporting models. Designed for rapid experimentation, PyCaret supports classification, regression, clustering, NLP, anomaly detection, and integrates with scikit-learn and other libraries. I use it to predict overall homeless per capita across various model types to narrow down methods for further exploration. Below is a leaderboard created by a [PyCarent run](https://github.com/ao222/branching-out/blob/32f90c1ebc2594879b1f5dad41c87ec1142d5b06/Misc/automl.ipynb).
 
 ### Leaderboard
 Model|MAE|MSE|RMSE|R2|RMSLE|MAPE|TT (Sec)
@@ -97,7 +97,8 @@ Dummy Regressor|0.0012|0.0|0.0018|-0.0018|0.0018|1.0766|0.024
 AdaBoost Regressor|0.0017|0.0|0.0019|-0.1044|0.0019|1.8322|0.138
 Passive Aggressive Regressor|0.0018|0.0|0.0026|-1.0549|0.0025|1.0|0.026
 
-The leaderboard shows several gradient boosting decision tree regression algorithms (CatBoost Regressor, Light Gradient Boosting, and Gradient Boosting Regressor) as reudcing the RMSE the most and increasing R^2 the most. We will select one of these methods, perhaps CatBoost or Light Gradient Boosting for further exploration. Also competing with gradient boosting for the top spot is randomn forest algorithms (Extra Trees Regressor, Random Forest Regressor). We will choose one of these methods to explore further. Therefore we will pit bagging (random forests) and boosting against each other using two different ensemble learning algorithms. Our third chosen method will be K Neighbors Regressor which has the next highest RMSE compared to the bagging and boosting algorithms.
+The leaderboard shows several gradient boosting decision tree regression algorithms (CatBoost Regressor, Light Gradient Boosting, and Gradient Boosting Regressor) as reudcing the RMSE the most and increasing R^2 the most. I will select one of these methods, perhaps CatBoost or Light Gradient Boosting for further exploration. Also competing with gradient boosting for the top spot is randomn forest algorithms (Extra Trees Regressor, Random Forest Regressor). I will choose one of these methods to explore further. Therefore we will pit bagging (random forests) and boosting against each other using two different ensemble learning algorithms. Our third chosen method will be K Neighbors Regressor which has the next highest RMSE compared to the bagging and boosting algorithms.
+
 ## Review **(3 points): Review of earlier results with similar datasets. You need to cite these works at the end of the report. 2 PAGES 560 Words**
 
 ## Tentative schedule and task distribution
