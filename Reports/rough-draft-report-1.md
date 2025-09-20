@@ -13,11 +13,31 @@ My project closely follows the project from Boston University and seeks to affir
 ## Review of Earlier Work
 **(3 points): Review of earlier results with similar datasets. You need to cite these works at the end of the report. 2 PAGES 560 Words**
 
-Boston University's Project organizes itself around two motivating questions. 1) To what extent can homelessness rates be predicted by measures of rent, poverty, and other housing market conditions? 2) What measures are most important in predicting homelessness? To achieve these ends the team at BU collected data from the American Community Survey or ACS and paried it with data collected by local Continuum of Care planning bodies within the HUD. Additionally they added average monthly temperatures by state provided by the National Oceanic and Atmospheric Administration (NOAA).
+Boston University's Project organizes itself around two motivating questions. 1) To what extent can homelessness rates be predicted by measures of rent, poverty, and other housing market conditions? 2) What measures are most important in predicting homelessness? To achieve these ends the team at BU collected data from the American Community Survey or ACS and paried it with data collected by local Continuum of Care planning bodies within the U.S. Department of Housing and Urban Development (HUD). Additionally they added average monthly temperatures by state provided by the National Oceanic and Atmospheric Administration (NOAA).
 
-They used several visualizations to bring forth certain properties of the data to light. For example
+They used several visualizations to highlight key properties of the data. Below is one such visualization on homelessness trends over time.
 
+### BU Visualizations
 
+![visualization one](../Visualizations/BU/homeless_tredns_time_CoC_category.png)
+
+This visualization highlights a drop in 2021 of the homeless counts across all CoC types. This drop was likely caused by emergency housing initiatives driven by the Covid pandemic. These measures were deemed unsustainable by the political system and scaled back after covid. This marks the rise in homelessness from 2022 and beyond.
+
+![visualization two](../Visualizations/BU/CoC_categ_Distribution.png)
+
+This visualization highlights that urban CoC take up a larger proportion of homelessness than the other categories. The BU report makes the argument these communities must be targeted to address this disparity. Although clouding this area is the fact that a proportion of urban homelessness comes from migrating individuals from rural and suburban areas. Therefore raw counts in the cities overestimates the number this community creates. The data collected lacks the detail to investigate this dynamic.
+
+![visualization three](../Visualizations/BU/top_ten_CoCs.png)
+
+Here we see that New York and LA have the highest counts, while Houston doesn't appear in the top ten. A rural CoC from Texas (Texas Balance of State) does make the top ten. However this visualization doesn't account for  the different sizes in population. I will add a top ten per capita chart as well.
+
+![visualization four](../Visualizations/BU/Distribution of Homelessness Types.png)
+
+This chart attempted to show the make up of different homeless types. However the author of this particular pie chart has made a mistake. Overall homeless is the total homeless population. Unsheltered and Sheltered is one division of this population. Familites and Individuals is another type of division. Combining both splits and the total count in one pie chart is representing 300% of the popoulation! Therefore this pie chart is erroneous and highlights the need for careful understanding when visualizing data.
+
+![visualization five](../Visualizations/BU/sheltered_unsheltered.png)
+
+The sheltered vs unsheltered population plot shows that unsheltered dropped significantly during covid highlighting again the effectiveness of crises interventions. However the rebound in 2023 shows the return of systemic issues of homelessness.
 
 ## Data
 **(1 point): Choosing and describing dataset(s) (no need for coding at this stage). Explain how the data is collected. Mention the number of observations and variables, and the description of each variable. .66 PAGES 185 Words**
@@ -119,3 +139,5 @@ My project closely follows the project from Boston University and seeks to affir
 
 ## Tentative schedule and task distribution
 **(1 point): Task distribution among the members. Tentative start and end date of each task. .66 PAGES 185 Words**
+* Visualizations
+    *  Per Capita Homeless Count top ten
