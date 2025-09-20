@@ -117,7 +117,7 @@ NOAA's statewide temperature data comes from thousands of weather stations, chec
 
 ## Methods
 
-I begin by exploring models using PyCaret. "PyCaret is an Python library which automates much of the machine learning workflow. I use it to build and evaluate many predictive models. I chose the overall homeless population per capita as the target variable. I intend to examine the best performing models in more depth. Below is a leaderboard created by my [PyCaret run](https://github.com/ao222/branching-out/blob/32f90c1ebc2594879b1f5dad41c87ec1142d5b06/Misc/automl.ipynb).
+I begin by exploring models using PyCaret. PyCaret is a Python library which automates much of the machine learning workflow. I use it to build and evaluate many predictive models. I chose the overall homeless population per capita as the target variable. I will manually examine the best performing models in more depth. Below is a leaderboard created by my [PyCaret run](https://github.com/ao222/branching-out/blob/32f90c1ebc2594879b1f5dad41c87ec1142d5b06/Misc/automl.ipynb).
 
 ### Leaderboard
 Model|MAE|MSE|RMSE|R2|RMSLE|MAPE|TT (Sec)
@@ -142,7 +142,7 @@ Dummy Regressor|0.0012|0.0|0.0018|-0.0018|0.0018|1.0766|0.024
 AdaBoost Regressor|0.0017|0.0|0.0019|-0.1044|0.0019|1.8322|0.138
 Passive Aggressive Regressor|0.0018|0.0|0.0026|-1.0549|0.0025|1.0|0.026
 
-The leaderboard shows several gradient boosting decision tree regression algorithms (CatBoost Regressor, Light Gradient Boosting, and Gradient Boosting Regressor) as reducing the RMSE the most and increasing R^2 the most. I will select CatBoost for further exploration. Also competing with gradient boosting for the top spot are random forest algorithms (Extra Trees Regressor, Random Forest Regressor). I will choose one of these methods to explore further. Therefore, we will pit bagging (random forests) and boosting against each other using two different ensemble learning algorithms. My third chosen method will be the K-Neighbors Regressor, which has the next highest RMSE compared to the bagging and boosting algorithms.
+The leaderboard shows several gradient boosting decision tree regression algorithms (CatBoost Regressor, Light Gradient Boosting, and Gradient Boosting Regressor) as reducing the RMSE and increasing R^2 the most. I will select CatBoost for further exploration. Also competing with gradient boosting for the top spot are random forest algorithms (Extra Trees Regressor, Random Forest Regressor). I will choose one of these methods to explore further. Therefore, we will pit bagging (random forests) and boosting against each other using two different ensemble learning algorithms. My third chosen method will be the K-Neighbors Regressor, which has the next highest RMSE compared to the bagging and boosting algorithms.
 
 ## Tentative schedule and task distribution
 
@@ -159,9 +159,9 @@ The leaderboard shows several gradient boosting decision tree regression algorit
 | Week 3       | Oct. 11th  | Visualize Data|
 |        |   | Point out interesting relationships and patterns from visualizations|
 | Week 4       | Oct. 18th  | 5 page Write-Up|
-| Report 2     | Oct. 25th  |   |
+| **Report 2**     | **Oct. 25th**  |   |
 | Week 5       | Oct. 25th  | Explain CatBoost, Extra Trees Regressor, and K-Neighbors Regressor Include model assumption advantages and disadvantages of each method |
-| | Oct. 25th  | Describe any feature creation|
+| |            | Describe any feature creation|
 |        |   | Explain the selection process and cross-validation used|
 |        |   | Explain bias variance trade-off|
 | Week 6       | Nov. 1st   | Construct CatBoost Model|
@@ -171,5 +171,5 @@ The leaderboard shows several gradient boosting decision tree regression algorit
 |        |    | Interpret model coefficients and feature importance|
 | Week 8       | Nov. 15th  | 5 Page Write-Up|
 | Week 9       | Nov. 23rd  | Presentation Slides|
-| Presentation | Nov. 23rd  |   |
-| Final Report | Nov. 30th  |   |
+| **Presentation** | **Nov. 23rd**  |   |
+| **Final Report** | **Nov. 30th**  |   |
