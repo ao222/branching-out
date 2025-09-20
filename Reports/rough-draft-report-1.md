@@ -145,5 +145,37 @@ Passive Aggressive Regressor|0.0018|0.0|0.0026|-1.0549|0.0025|1.0|0.026
 The leaderboard shows several gradient boosting decision tree regression algorithms (CatBoost Regressor, Light Gradient Boosting, and Gradient Boosting Regressor) as reducing the RMSE the most and increasing R^2 the most. I will select CatBoost for further exploration. Also competing with gradient boosting for the top spot are random forest algorithms (Extra Trees Regressor, Random Forest Regressor). I will choose one of these methods to explore further. Therefore, we will pit bagging (random forests) and boosting against each other using two different ensemble learning algorithms. My third chosen method will be the K-Neighbors Regressor, which has the next highest RMSE compared to the bagging and boosting algorithms.
 
 ## Tentative schedule and task distribution
-* Visualizations
-    *  Per Capita Homeless Count top ten
+* Report 2 | Oct. 25th
+   * Week 1 | Sept. 21st through Sept. 27th
+      * Gather ACS Tables
+      * Merge ACS Tables, CoC Counts, and NOAA Weather Data
+   * Week 2 | Sept. 28th through Oct. 4th
+      * Create Per Capita and other Features
+      * Determine type of variables
+      * Identify outliers and any data issues
+      * Apply Transformations
+      * Handle missing values
+      * Describe data variable statistics
+   * Week 3 | Oct. 5th through Oct. 11th
+      * Visualize Data
+      * Point out Interesting relationships and patterns from visualizations
+   * Week 4 | Oct. 12th through Oct. 18th
+      * 5 Page Write-Up
+* Final Report | Nov. 30th
+   * Week 1 | Oct. 19th through Oct. 25th
+      * Explain CatBoost, Extra Trees Regressor, and K-Neighbors Regressor. Include model assumption advantages and disadvantes of each method.
+      * Describe any feature creation
+      * Explain the selection process and cross-validation used
+      * Explain bias variance trade-off
+   * Week 2 | Oct. 26th through Nov. 1st
+      * Contruct CatBoost Model
+      * Construct Extra Tress Regressor Model
+      * Construct K-Neighbors Regressor Model
+   * Week 3 | Nov. 2nd through Nov. 8th
+      * Tune Model Hyperparameters
+      * Interpret model coefficients / Feature Importance
+   * Week 4 | Nov. 9th through Nov. 15th
+      * 5 Page Write-Up
+* Presentation | Nov. 23rd
+   * Week 5 | Nov. 16th through Nov. 22nd
+      * Presentation Slides
