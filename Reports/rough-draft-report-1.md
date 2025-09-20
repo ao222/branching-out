@@ -148,13 +148,6 @@ Passive Aggressive Regressor|0.0018|0.0|0.0026|-1.0549|0.0025|1.0|0.026
 
 The leaderboard shows several gradient boosting decision tree regression algorithms (CatBoost Regressor, Light Gradient Boosting, and Gradient Boosting Regressor) as reudcing the RMSE the most and increasing R^2 the most. I will select one of these methods, perhaps CatBoost or Light Gradient Boosting for further exploration. Also competing with gradient boosting for the top spot is randomn forest algorithms (Extra Trees Regressor, Random Forest Regressor). I will choose one of these methods to explore further. Therefore we will pit bagging (random forests) and boosting against each other using two different ensemble learning algorithms. Our third chosen method will be K Neighbors Regressor which has the next highest RMSE compared to the bagging and boosting algorithms.
 
-## Review **(3 points): Review of earlier results with similar datasets. You need to cite these works at the end of the report. 2 PAGES 560 Words**
-
-Boston University's Project organizes itself around two motivating questions. 1) To what extent can homelessness rates be predicted by measures of rent, poverty, and other housing market conditions? 2) What measures are most important in predicting homelessness? To achieve these ends the team at BU collected data from the American Community Survey or ACS and paried it with data collected by local Continuum of Care planning bodies. Additionally adding average monthly temperatures by state.
-
-They used several visualizations to bring forth certain properties of the data to light. For example 
-My project closely follows the project from Boston University and seeks to affirm or reject their conclusions by reproducing their work, updating the dataset, and following up on their recommendation to add ensemble methods with multiple objective optimization. I would also like to extend their visualizations in certain areas and also highlight Houston's relative position with other CoC's.
-
 ## Tentative schedule and task distribution
 **(1 point): Task distribution among the members. Tentative start and end date of each task. .66 PAGES 185 Words**
 * Visualizations
