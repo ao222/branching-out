@@ -39,26 +39,25 @@ The sheltered vs. unsheltered population plot shows that the unsheltered populat
 
 ### Modeling
 
-The BU team applied four classes of models to five different target variables, creating 20 models.  The model classes compaired were: Linear Regression, Random Forest, Histogram-Gradient Boosting, and Extreme Gradient Boosting (XGBoost). Random forest had the best relative RMSE among the four except in predicting individual and family homelessness, suggesting overfitting.
+The BU team applied four classes of models to five different target variables, creating 20 models. The model classes compaired were: Linear Regression, Random Forest, Histogram-Gradient Boosting, and Extreme Gradient Boosting (XGBoost). Random forest had the best relative RMSE among the four, except in predicting individual and family homelessness, suggesting overfitting in this area.
 
 ### Conclusions
 
-The BU team investigated the importance of the predictors in the different models. They conclude that primary influential factors were the renter household rates and total year-round beds were the strongest predictors. Also strong were population size and average termperature. A third tier of predictors were median household income, unemployment rates, and poverty rates.
+The BU team investigated the importance of the predictors in the different models. They conclude that the strongest predictors were the renter household rates and total year-round beds. Also strong were population size and average temperature. A third tier of predictors was median household income, unemployment rates, and poverty rates.
 
-This predictor hierarchy suggests that regions with higher rent burdens and unemployment rates tende to have significantly higher homelessness rates, particularly in highly dense areas.
+This predictor hierarchy suggests that regions with higher rent burdens and unemployment rates tend to have significantly higher homelessness rates, particularly in highly dense areas.
 
 ### Policy and Practical REcommendations
 
-The BU team suggests policy maker prioritize high risk communitites and stabilize rent using rent control or subsides. This would help alleviate housing costs on vulnerable populations. Also enhancing shelter capacities is vital.
+The BU team suggests that policymakers prioritize high-risk communities and stabilize rent by implementing rent control or subsidies. These initiatives would help alleviate housing costs for vulnerable populations. Also, enhancing shelter capacities is vital.
 
-For further work the BU team suggests incorporating real time weather conditions and real time economic fluctuations. They suggest exploring ensemble appraoches combining different models like Histogram-Gradient Boosting, Random Forest, Support Vector Regression. Also multi-objective optimization could be pursued. Some possible objectives might include: number of homeless veterans, number of unsheltered youth, and number of chornically homeless individuals.
+For further work, the BU team suggests incorporating real-time weather conditions and real-time economic fluctuations. They suggest exploring ensemble approaches that combine different models, such as Histogram-Gradient Boosting, Random Forest, and Support Vector Regression. A second suggestion was to implement multi-objective optimization. Some possible objectives might include the number of homeless veterans, the number of unsheltered youth, and the number of chronically homeless individuals.
 
-The BU team suggests these models could by applied by identifying high-risk communitites to address the most pressing needs. As well as comparing predictions made by the models with actual outcomes to help policy makers evaluate the effectiveness of their policies.
+The BU team suggests that policymakers could use these models to identify high-risk communities to address the most pressing needs. As well as comparing model predictions with actual outcomes to help policymakers evaluate the effectiveness of their policies against a baseline.
 
 ## Data
-**(1 point): Choosing and describing dataset(s) (no need for coding at this stage). Explain how the data is collected. Mention the number of observations and variables, and the description of each variable. .66 PAGES 185 Words**
 
-Our data was obtained from the project, ‘Predictive Model Based on Homelessness’ located at this [GitHub repo](https://github.com/BU-Spark/ds-ciss-predictive-homlessness/tree/main). The file [Final_Dataset.csv](https://github.com/BU-Spark/ds-ciss-predictive-homlessness/blob/76d8be480f6b32075f4193776988ed61aac92687/Final_Dataset.csv) contains 20 columns prepared by combining various government datasets. Below are tables representing the 20 columns, their descriptions, and their sources. This information was obtained from dataset documentation at the above repo.
+I obtained the data for this project from 'Predictive Model Based on Homelessness' located at this [GitHub repo](https://github.com/BU-Spark/ds-ciss-predictive-homlessness/tree/main). The file [Final_Dataset.csv](https://github.com/BU-Spark/ds-ciss-predictive-homlessness/blob/76d8be480f6b32075f4193776988ed61aac92687/Final_Dataset.csv) contains 20 columns prepared by combining various government datasets. Below are tables representing the 20 columns, their descriptions, and their sources. I obtained this information from the dataset documentation at the above repo.
 
 ### Data Descriptions
 | Parameter	| Description | Sources |
@@ -87,7 +86,7 @@ Our data was obtained from the project, ‘Predictive Model Based on Homelessnes
 ### Data Details
 
 #### ACS Tables
-The American Community Survey, produced by the Census Bureau, carries out 3.5 million surveys each year and is the leading survey informing federal policy. It releasese three data products: 1 year estimates, 1 year supplemental estimates, and 5 year estimates. These three products represents geographies of 65,000 for the 1 year estimates, geographies of 20,000 for the 1 year supplemntal estimates, and drills down to neighborhood-level and rural counties for the 5 year estimates. In this project I rely on the 1 year supplemental estimates **(TODO: confirm I use supplemental and not 1 year estimates).** The ACS ask questions regarding a wide area of topics in categories of social, economic, demographic, and housing. These areas are delimitted below.
+The American Community Survey, produced by the Census Bureau, carries out 3.5 million surveys each year and is the leading survey informing federal policy. It releasese three data products: 1 year estimates, 1 year supplemental estimates, and 5 year estimates. These three products represent geographies of 65,000 for the 1-year estimates, geographies of 20,000 for the 1-year supplemental estimates, and drill down to neighborhood-level and rural counties for the 5-year estimates. In this project, I will use the 5-year estimates. The ACS ask questions regarding a wide area of topics in categories of social, economic, demographic, and housing. These areas are delimited below.
 
 |Social|Economic|Demographic|Housing|
 |------|--------|-----------|-------|
@@ -106,20 +105,19 @@ Veterans| | |
 
 #### Housing Inventory Count (HIC)
 
-The Housing Inventory Count (HIC) is a snapshot of all the programs within a Continuum of Care (CoC) that offer beds and units specifically for people experiencing homelessness. For permanent housing projects, this includes people who were homeless when they first entered, based on HUD’s definition. The inventory is organized into five program types: Emergency Shelter, Transitional Housing, Rapid Re-Housing, Safe Haven, and Permanent Supportive Housing [https://www.hudexchange.info/programs/hdx/pit-hic/#2025-pit-count-and-hic-guidance](https://www.hudexchange.info/programs/hdx/pit-hic/#2025-pit-count-and-hic-guidance)
+The Housing Inventory Count (HIC) is a snapshot of all the programs within a Continuum of Care (CoC) that offer beds and units specifically for people experiencing homelessness. For permanent housing projects, this includes people who were homeless when they first entered, based on HUD's definition. There are five program types, each with its specific count: Emergency Shelter, Transitional Housing, Rapid Re-Housing, Safe Haven, and Permanent Supportive Housing [https://www.hudexchange.info/programs/hdx/pit-hic/#2025-pit-count-and-hic-guidance](https://www.hudexchange.info/programs/hdx/pit-hic/#2025-pit-count-and-hic-guidance).
 
 #### Point-in-Time Count (PIT)
 
-The Point-in-Time (PIT) Count is a one-night snapshot in January of how many people are experiencing homelessness, both sheltered and unsheltered. HUD requires Continuums of Care (CoCs) to conduct this count each year for people staying in emergency shelters, transitional housing, and Safe Havens. In addition, CoCs must count unsheltered individuals every other year (in odd-numbered years). Each community is responsible for planning, organizing, and carrying out the count locally. [https://www.hudexchange.info/programs/hdx/pit-hic/#2025-pit-count-and-hic-guidance](https://www.hudexchange.info/programs/hdx/pit-hic/#2025-pit-count-and-hic-guidance)
+The Point-in-Time (PIT) Count is a one-night count conducted in January that provides a snapshot of how many people are experiencing homelessness, both sheltered and unsheltered. HUD requires Continuums of Care (CoCs) to conduct this count each year for people staying in emergency shelters, transitional housing, and Safe Havens. In addition, CoCs must count unsheltered individuals every other year (in odd-numbered years). Each community is responsible for planning, organizing, and carrying out the count locally. [https://www.hudexchange.info/programs/hdx/pit-hic/#2025-pit-count-and-hic-guidance](https://www.hudexchange.info/programs/hdx/pit-hic/#2025-pit-count-and-hic-guidance)
 
 #### NCEI
 
-NOAA’s statewide temperature data come from thousands of weather stations, checked for accuracy and adjusted for changes in equipment or location. These readings are mapped onto a fine grid and averaged to give reliable monthly statewide values, providing a consistent record of U.S. climate back to 1895.
+NOAA's statewide temperature data comes from thousands of weather stations, checked for accuracy and adjusted for changes in equipment or location. These readings are mapped onto a fine grid and averaged to give reliable monthly statewide values, providing a consistent record of U.S. climate back to 1895.
 
 ## Methods
-**(2 points): Description and justification of the methods 1.33 PAGES 370 Words**
 
-I begin by exploring models using PyCaret. PyCaret is a low-code machine learning library that automates model training, comparison, and deployment. It simplifies preprocessing data, tuning hyperparameters, evaluating performance, and exporting models. Designed for rapid experimentation, PyCaret supports classification, regression, clustering, NLP, anomaly detection, and integrates with scikit-learn and other libraries. I use it to predict overall homeless per capita across various model types to narrow down methods for further exploration. Below is a leaderboard created by a [PyCarent run](https://github.com/ao222/branching-out/blob/32f90c1ebc2594879b1f5dad41c87ec1142d5b06/Misc/automl.ipynb).
+I begin by exploring models using PyCaret. PyCaret is a low-code machine learning library that automates model training, comparison, and deployment. It simplifies data preprocessing, hyperparameter tuning, performance evaluation, and model exporting. Designed for rapid experimentation, PyCaret supports classification, regression, clustering, NLP, anomaly detection, and integrates with scikit-learn and other libraries. I use it to predict the overall homeless population per capita across various model types to narrow down methods for further exploration. Below is a leaderboard created by my [PyCaret run](https://github.com/ao222/branching-out/blob/32f90c1ebc2594879b1f5dad41c87ec1142d5b06/Misc/automl.ipynb).
 
 ### Leaderboard
 Model|MAE|MSE|RMSE|R2|RMSLE|MAPE|TT (Sec)
@@ -144,9 +142,8 @@ Dummy Regressor|0.0012|0.0|0.0018|-0.0018|0.0018|1.0766|0.024
 AdaBoost Regressor|0.0017|0.0|0.0019|-0.1044|0.0019|1.8322|0.138
 Passive Aggressive Regressor|0.0018|0.0|0.0026|-1.0549|0.0025|1.0|0.026
 
-The leaderboard shows several gradient boosting decision tree regression algorithms (CatBoost Regressor, Light Gradient Boosting, and Gradient Boosting Regressor) as reudcing the RMSE the most and increasing R^2 the most. I will select one of these methods, perhaps CatBoost or Light Gradient Boosting for further exploration. Also competing with gradient boosting for the top spot is randomn forest algorithms (Extra Trees Regressor, Random Forest Regressor). I will choose one of these methods to explore further. Therefore we will pit bagging (random forests) and boosting against each other using two different ensemble learning algorithms. Our third chosen method will be K Neighbors Regressor which has the next highest RMSE compared to the bagging and boosting algorithms.
+The leaderboard shows several gradient boosting decision tree regression algorithms (CatBoost Regressor, Light Gradient Boosting, and Gradient Boosting Regressor) as reducing the RMSE the most and increasing R^2 the most. I will select CatBoost for further exploration. Also competing with gradient boosting for the top spot are random forest algorithms (Extra Trees Regressor, Random Forest Regressor). I will choose one of these methods to explore further. Therefore, we will pit bagging (random forests) and boosting against each other using two different ensemble learning algorithms. My third chosen method will be the K-Neighbors Regressor, which has the next highest RMSE compared to the bagging and boosting algorithms.
 
 ## Tentative schedule and task distribution
-**(1 point): Task distribution among the members. Tentative start and end date of each task. .66 PAGES 185 Words**
 * Visualizations
     *  Per Capita Homeless Count top ten
