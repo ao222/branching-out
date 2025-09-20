@@ -10,33 +10,32 @@ A Boston University Project [[source](https://github.com/ao222/branching-out/blo
 My project closely follows the project from Boston University. It seeks to affirm or reject their conclusions by reproducing their work, updating the dataset, and following up on their concluding recommendations to add ensemble methods with multiple objective optimization. I would also like to extend their visualizations in certain areas to highlight Houston's relative position with other communities.
 
 ## Review of Earlier Work
-**(3 points): Review of earlier results with similar datasets. You need to cite these works at the end of the report. 2 PAGES 560 Words**
 
-Boston University's Project organizes itself around two motivating questions. 1) To what extent can homelessness rates be predicted by measures of rent, poverty, and other housing market conditions? 2) What measures are most important in predicting homelessness? To achieve these ends the team at BU collected data from the American Community Survey or ACS and paried it with data collected by local Continuum of Care planning bodies within the U.S. Department of Housing and Urban Development (HUD). Additionally they added average monthly temperatures by state provided by the National Oceanic and Atmospheric Administration (NOAA).
+Boston University's Project organizes itself around two motivating questions. 1) To what extent can homelessness rates be predicted by measures of rent, poverty, and other housing market conditions? 2) What measures are most important in predicting homelessness? To achieve these ends, the team at BU collected demographic and economic indicators from the American Community Survey (ACS). It paired it with the Point-In-Time count (PIT) and the Housing Inventory Count (HIC) data collected by local Continuums of Care planning bodies within the U.S. Department of Housing and Urban Development (HUD). These two counts track the demand and supply of homeless services nationwide. Additionally, the BU team added average monthly temperatures by state provided by the National Oceanic and Atmospheric Administration (NOAA).
 
-They used several visualizations to highlight key properties of the data. Below is one such visualization on homelessness trends over time.
+They used several visualizations to highlight key properties of the data. Below is one such visualization of homelessness trends over time.
 
 ### BU Visualizations
 
 ![visualization one](../Visualizations/BU/homeless_trends_time_CoC_category.png)
 
-This visualization highlights a drop in 2021 of the homeless counts across all CoC types. This drop was likely caused by emergency housing initiatives driven by the Covid pandemic. These measures were deemed unsustainable by the political system and scaled back after covid. This marks the rise in homelessness from 2022 and beyond.
+This visualization highlights a decrease in 2021 in the number of homeless individuals across all CoC types. Emergency housing initiatives during the COVID-19 pandemic likely contributed to these reductions. These measures were deemed unsustainable by the political system and scaled back after the pandemic subsided, which marks the rise in homelessness from 2022 and beyond.
 
 ![visualization two](../Visualizations/BU/CoC_categ_Distribution.png)
 
-This visualization highlights that urban CoC take up a larger proportion of homelessness than the other categories. The BU report makes the argument these communities must be targeted to address this disparity. Although clouding this area is the fact that a proportion of urban homelessness comes from migrating individuals from rural and suburban areas. Therefore raw counts in the cities overestimates the number this community creates. The data collected lacks the detail to investigate this dynamic.
+This visualization highlights that urban CoCs take up a larger proportion of homelessness than the other categories. The BU report argues that policy initiatives must target these communities to address this disparity. Complicating this issue is the fact that a proportion of urban homelessness stems from individuals migrating from rural and suburban areas. Therefore, raw counts in the cities overestimate the number of homeless individuals their communities create. The data collected lacks the detail to investigate this dynamic.
 
 ![visualization three](../Visualizations/BU/top_ten_CoCs.png)
 
-Here we see that New York and LA have the highest counts, while Houston doesn't appear in the top ten. A rural CoC from Texas (Texas Balance of State) does make the top ten. However this visualization doesn't account for  the different sizes in population. I will add a top ten per capita chart as well.
+Here we see that New York and LA have the highest counts, while Houston doesn't appear in the top ten. A rural CoC from Texas (Texas Balance of State) does make the top ten. However, this visualization doesn't account for the different population sizes. I will add a top ten per capita chart as well.
 
 ![visualization four](../Visualizations/BU/Distribution_of_Homelessness_Types.png)
 
-This chart attempted to show the make up of different homeless types. However the author of this particular pie chart has made a mistake. Overall homeless is the total homeless population. Unsheltered and Sheltered is one division of this population. Familites and Individuals is another type of division. Combining both splits and the total count in one pie chart is representing 300% of the popoulation! Therefore this pie chart is erroneous and highlights the need for careful understanding when visualizing data.
+This chart aims to illustrate the composition of various types of homeless individuals. However, the author of this particular pie chart has made a mistake. Overall homelessness refers to the total homeless population. Unsheltered vs. sheltered is one division of this population. Families vs. individuals is another type of division. Combining both splits and the total count in one pie chart represents 300% of the popoulation! Therefore, this pie chart is erroneous and highlights the need for careful understanding of data when conducting visualizations.
 
 ![visualization five](../Visualizations/BU/sheltered_unsheltered.png)
 
-The sheltered vs unsheltered population plot shows that unsheltered dropped significantly during covid highlighting again the effectiveness of crises interventions. However the rebound in 2023 shows the return of systemic issues of homelessness.
+The sheltered vs. unsheltered population plot shows that the unsheltered population dropped significantly during COVID, highlighting again the effectiveness of crisis interventions. However, the rebound in 2023 highlights the impact of systemic issues related to homelessness.
 
 ### Modeling
 
