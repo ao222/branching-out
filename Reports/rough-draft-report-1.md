@@ -19,7 +19,7 @@ They used several visualizations to highlight key properties of the data. Below 
 
 ### BU Visualizations
 
-![visualization one](../Visualizations/BU/homeless_tredns_time_CoC_category.png)
+![visualization one](../Visualizations/BU/homeless_trends_time_CoC_category.png)
 
 This visualization highlights a drop in 2021 of the homeless counts across all CoC types. This drop was likely caused by emergency housing initiatives driven by the Covid pandemic. These measures were deemed unsustainable by the political system and scaled back after covid. This marks the rise in homelessness from 2022 and beyond.
 
@@ -31,7 +31,7 @@ This visualization highlights that urban CoC take up a larger proportion of home
 
 Here we see that New York and LA have the highest counts, while Houston doesn't appear in the top ten. A rural CoC from Texas (Texas Balance of State) does make the top ten. However this visualization doesn't account for  the different sizes in population. I will add a top ten per capita chart as well.
 
-![visualization four](../Visualizations/BU/Distribution of Homelessness Types.png)
+![visualization four](../Visualizations/BU/Distribution_of_Homelessness_Types.png)
 
 This chart attempted to show the make up of different homeless types. However the author of this particular pie chart has made a mistake. Overall homeless is the total homeless population. Unsheltered and Sheltered is one division of this population. Familites and Individuals is another type of division. Combining both splits and the total count in one pie chart is representing 300% of the popoulation! Therefore this pie chart is erroneous and highlights the need for careful understanding when visualizing data.
 
