@@ -146,125 +146,30 @@ The leaderboard shows several gradient boosting decision tree regression algorit
 
 ## Tentative schedule and task distribution
 
-### Fromat 1
-
-| Week Number  | Due Date   | Task|
-|--------------|------------|------|
-| Report 2     | Oct. 25th  |   |
-| Week 1       | Sept. 27th | Gather ACS Tables|
-| Week 1       | Sept. 27th | Merge ACS Tables, Coc Counts, NOAA Weather Data|
-| Week 2       | Oct. 4th   | Create Per Capita and other Features|
-| Week 2       | Oct. 4th   | Determine Type of Variables|
-| Week 2       | Oct. 4th   | Identify outliers and any data issues|
-| Week 2       | Oct. 4th   | Apply Transformations|
-| Week 2       | Oct. 4th   | Handle missing values|
-| Week 2       | Oct. 4th   | Describe data variable statistics|
-| Week 3       | Oct. 11th  | Visualize Data|
-| Week 3       | Oct. 11th  | Point out interesting relationships and patterns from visualizations|
-| Week 4       | Oct. 18th  | 5 page Write-Up|
-| Final Report | Nov. 30th  |   |
-| Week 5       | Oct. 25th  | Explain CatBoost, Extra Trees Regressor, and K-Neighbors Regressor Include model assumption advantages and disadvantages of each method |
-| Week 5       | Oct. 25th  | Describe any feature creation|
-| Week 5       | Oct. 25th  | Explain the selection process and cross-validation used|
-| Week 5       | Oct. 25th  | Explain bias variance trade-off|
-| Week 6       | Nov. 1st   | Construct CatBoost Model|
-| Week 6       | Nov. 1st   | Construct Extra Trees Regressor Model|
-| Week 6       | Nov. 1st   | Construct K-Neighbors Regressor Model|
-| Week 7       | Nov. 8th   | Tune Model Hyperparameters|
-| Week 7       | Nov. 8th   | Interpret model coefficients and feature importance|
-| Week 8       | Nov. 15th  | 5 Page Write-Up|
-| Week 9       | Nov. 23rd  | Presentation Slides|
-
-### Format 2
-
 | Week Number  | Due Date   | Task|
 |--------------|------------|------|
 | Week 1       | Sept. 27th | Gather ACS Tables|
-| Week 1       | Sept. 27th | Merge ACS Tables, Coc Counts, NOAA Weather Data|
+|        |  | Merge ACS Tables, Coc Counts, NOAA Weather Data|
 | Week 2       | Oct. 4th   | Create Per Capita and other Features|
-| Week 2       | Oct. 4th   | Determine Type of Variables|
-| Week 2       | Oct. 4th   | Identify outliers and any data issues|
-| Week 2       | Oct. 4th   | Apply Transformations|
-| Week 2       | Oct. 4th   | Handle missing values|
-| Week 2       | Oct. 4th   | Describe data variable statistics|
+|        |    | Determine Type of Variables|
+|        |    | Identify outliers and any data issues|
+|        |    | Apply Transformations|
+|        |    | Handle missing values|
+|        |    | Describe data variable statistics|
 | Week 3       | Oct. 11th  | Visualize Data|
-| Week 3       | Oct. 11th  | Point out interesting relationships and patterns from visualizations|
-| Week 4       | Oct. 18th  | 5 page Write-Up|
-| Report 2     | Oct. 25th  |   |
-| Week 5       | Oct. 25th  | Explain CatBoost, Extra Trees Regressor, and K-Neighbors Regressor Include model assumption advantages and disadvantages of each method |
-| Week 5       | Oct. 25th  | Describe any feature creation|
-| Week 5       | Oct. 25th  | Explain the selection process and cross-validation used|
-| Week 5       | Oct. 25th  | Explain bias variance trade-off|
-| Week 6       | Nov. 1st   | Construct CatBoost Model|
-| Week 6       | Nov. 1st   | Construct Extra Trees Regressor Model|
-| Week 6       | Nov. 1st   | Construct K-Neighbors Regressor Model|
-| Week 7       | Nov. 8th   | Tune Model Hyperparameters|
-| Week 7       | Nov. 8th   | Interpret model coefficients and feature importance|
-| Week 8       | Nov. 15th  | 5 Page Write-Up|
-| Week 9       | Nov. 23rd  | Presentation Slides|
-| Presentation | Nov. 23rd  |   |
-| Final Report | Nov. 30th  |   |
-
-### Format 3
-| Week Number  | Due Date   | Task|
-|--------------|------------|------|
-| Week 1       | Sept. 27th | Gather ACS Tables|
-|        | Sept. 27th | Merge ACS Tables, Coc Counts, NOAA Weather Data|
-| Week 2       | Oct. 4th   | Create Per Capita and other Features|
-|        | Oct. 4th   | Determine Type of Variables|
-|        | Oct. 4th   | Identify outliers and any data issues|
-|        | Oct. 4th   | Apply Transformations|
-|        | Oct. 4th   | Handle missing values|
-|        | Oct. 4th   | Describe data variable statistics|
-| Week 3       | Oct. 11th  | Visualize Data|
-|        | Oct. 11th  | Point out interesting relationships and patterns from visualizations|
+|        |   | Point out interesting relationships and patterns from visualizations|
 | Week 4       | Oct. 18th  | 5 page Write-Up|
 | Report 2     | Oct. 25th  |   |
 | Week 5       | Oct. 25th  | Explain CatBoost, Extra Trees Regressor, and K-Neighbors Regressor Include model assumption advantages and disadvantages of each method |
 | | Oct. 25th  | Describe any feature creation|
-|        | Oct. 25th  | Explain the selection process and cross-validation used|
-|        | Oct. 25th  | Explain bias variance trade-off|
+|        |   | Explain the selection process and cross-validation used|
+|        |   | Explain bias variance trade-off|
 | Week 6       | Nov. 1st   | Construct CatBoost Model|
-|        | Nov. 1st   | Construct Extra Trees Regressor Model|
-|        | Nov. 1st   | Construct K-Neighbors Regressor Model|
+|        |    | Construct Extra Trees Regressor Model|
+|        |    | Construct K-Neighbors Regressor Model|
 | Week 7       | Nov. 8th   | Tune Model Hyperparameters|
-|        | Nov. 8th   | Interpret model coefficients and feature importance|
+|        |    | Interpret model coefficients and feature importance|
 | Week 8       | Nov. 15th  | 5 Page Write-Up|
 | Week 9       | Nov. 23rd  | Presentation Slides|
 | Presentation | Nov. 23rd  |   |
 | Final Report | Nov. 30th  |   |
-
-* Report 2 | Oct. 25th
-   * Week 1 | Sept. 21st through Sept. 27th
-      * Gather ACS Tables
-      * Merge ACS Tables, CoC Counts, and NOAA Weather Data
-   * Week 2 | Sept. 28th through Oct. 4th
-      * Create Per Capita and other Features
-      * Determine type of variables
-      * Identify outliers and any data issues
-      * Apply Transformations
-      * Handle missing values
-      * Describe data variable statistics
-   * Week 3 | Oct. 5th through Oct. 11th
-      * Visualize Data
-      * Point out Interesting relationships and patterns from visualizations
-   * Week 4 | Oct. 12th through Oct. 18th
-      * 5 Page Write-Up
-* Final Report | Nov. 30th
-   * Week 1 | Oct. 19th through Oct. 25th
-      * Explain CatBoost, Extra Trees Regressor, and K-Neighbors Regressor. Include model assumption advantages and disadvantes of each method.
-      * Describe any feature creation
-      * Explain the selection process and cross-validation used
-      * Explain bias variance trade-off
-   * Week 2 | Oct. 26th through Nov. 1st
-      * Contruct CatBoost Model
-      * Construct Extra Tress Regressor Model
-      * Construct K-Neighbors Regressor Model
-   * Week 3 | Nov. 2nd through Nov. 8th
-      * Tune Model Hyperparameters
-      * Interpret model coefficients / Feature Importance
-   * Week 4 | Nov. 9th through Nov. 15th
-      * 5 Page Write-Up
-* Presentation | Nov. 23rd
-   * Week 5 | Nov. 16th through Nov. 22nd
-      * Presentation Slides
