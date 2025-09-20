@@ -144,7 +144,7 @@ Passive Aggressive Regressor|0.0018|0.0|0.0026|-1.0549|0.0025|1.0|0.026
 
 The leaderboard shows several gradient boosting decision tree regression algorithms (CatBoost Regressor, Light Gradient Boosting, and Gradient Boosting Regressor) as reducing the RMSE and increasing R^2 the most. I will select CatBoost for further exploration. Also competing with gradient boosting for the top spot are random forest algorithms (Extra Trees Regressor, Random Forest Regressor). I will choose one of these methods to explore further. Therefore, we will pit bagging (random forests) and boosting against each other using two different ensemble learning algorithms. My third chosen method will be the K-Neighbors Regressor, which has the next highest RMSE compared to the bagging and boosting algorithms.
 
-## Tentative schedule and task distribution
+## Tentative Task Schedule
 
 | Week Number  | Due Date   | Task|
 |--------------|------------|------|
