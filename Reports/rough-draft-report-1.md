@@ -39,6 +39,24 @@ This chart attempted to show the make up of different homeless types. However th
 
 The sheltered vs unsheltered population plot shows that unsheltered dropped significantly during covid highlighting again the effectiveness of crises interventions. However the rebound in 2023 shows the return of systemic issues of homelessness.
 
+### Modeling
+
+The BU team applied four classes of models to five different target variables, creating 20 models.  The model classes compaired were: Linear Regression, Random Forest, Histogram-Gradient Boosting, and Extreme Gradient Boosting (XGBoost). Random forest had the best relative RMSE among the four except in predicting individual and family homelessness, suggesting overfitting.
+
+### Conclusions
+
+The BU team investigated the importance of the predictors in the different models. They conclude that primary influential factors were the renter household rates and total year-round beds were the strongest predictors. Also strong were population size and average termperature. A third tier of predictors were median household income, unemployment rates, and poverty rates.
+
+This predictor hierarchy suggests that regions with higher rent burdens and unemployment rates tende to have significantly higher homelessness rates, particularly in highly dense areas.
+
+### Policy and Practical REcommendations
+
+The BU team suggests policy maker prioritize high risk communitites and stabilize rent using rent control or subsides. This would help alleviate housing costs on vulnerable populations. Also enhancing shelter capacities is vital.
+
+For further work the BU team suggests incorporating real time weather conditions and real time economic fluctuations. They suggest exploring ensemble appraoches combining different models like Histogram-Gradient Boosting, Random Forest, Support Vector Regression. Also multi-objective optimization could be pursued. Some possible objectives might include: number of homeless veterans, number of unsheltered youth, and number of chornically homeless individuals.
+
+The BU team suggests these models could by applied by identifying high-risk communitites to address the most pressing needs. As well as comparing predictions made by the models with actual outcomes to help policy makers evaluate the effectiveness of their policies.
+
 ## Data
 **(1 point): Choosing and describing dataset(s) (no need for coding at this stage). Explain how the data is collected. Mention the number of observations and variables, and the description of each variable. .66 PAGES 185 Words**
 
