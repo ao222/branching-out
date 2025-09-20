@@ -117,7 +117,7 @@ NOAA's statewide temperature data comes from thousands of weather stations, chec
 
 ## Methods
 
-I begin by exploring models using PyCaret. PyCaret is a low-code machine learning library that automates model training, comparison, and deployment. It simplifies data preprocessing, hyperparameter tuning, performance evaluation, and model exporting. Designed for rapid experimentation, PyCaret supports classification, regression, clustering, NLP, anomaly detection, and integrates with scikit-learn and other libraries. I use it to predict the overall homeless population per capita across various model types to narrow down methods for further exploration. Below is a leaderboard created by my [PyCaret run](https://github.com/ao222/branching-out/blob/32f90c1ebc2594879b1f5dad41c87ec1142d5b06/Misc/automl.ipynb).
+I begin by exploring models using PyCaret. "PyCaret is an Python library which automates much of the machine learning workflow. I use it to build and evaluate many predictive models. I chose the overall homeless population per capita as the target variable. I intend to examine the best performing models in more depth. Below is a leaderboard created by my [PyCaret run](https://github.com/ao222/branching-out/blob/32f90c1ebc2594879b1f5dad41c87ec1142d5b06/Misc/automl.ipynb).
 
 ### Leaderboard
 Model|MAE|MSE|RMSE|R2|RMSLE|MAPE|TT (Sec)
