@@ -66,3 +66,7 @@ Join is through FIPS code → ACS GEOID.
 ### Clear up Confusion on 5-year estimates
 There is indeed a new 5-year release every year (rolling window), which is why you can query ACS 5-year datasets for 2009, 2010, …, 2023
 **Not an estimate released every 5 years. A yearly estimate based on the last five years. "rolling window"**
+
+### Crosswalk Github
+Tom Byrne's work on matching CoC to Census tracts. circa 2017
+https://github.com/tomhbyrne/HUD-CoC-Geography-Crosswalk
