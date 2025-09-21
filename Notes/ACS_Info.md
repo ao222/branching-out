@@ -62,3 +62,7 @@ Use area-weighting (or population-weighting, if available) to allocate ACS estim
 Use county-level ACS data if you just want a first-order match (most common).
 Use tract-level ACS data + HUD shapefiles for precise mapping where CoCs don’t align to whole counties.
 Join is through FIPS code → ACS GEOID.
+
+### Clear up Confusion on 5-year estimates
+There is indeed a new 5-year release every year (rolling window), which is why you can query ACS 5-year datasets for 2009, 2010, …, 2023
+**Not an estimate released every 5 years. A yearly estimate based on the last five years. "rolling window"**
