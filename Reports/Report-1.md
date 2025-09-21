@@ -109,7 +109,7 @@ The Housing Inventory Count (HIC) is a snapshot of all the programs within a Con
 
 #### Point-in-Time Count (PIT)
 
-The Point-in-Time (PIT) Count is a one-night count conducted in January that provides a snapshot of how many people are experiencing homelessness, both sheltered and unsheltered. HUD requires Continuums of Care (CoCs) to conduct this count each year for people staying in emergency shelters, transitional housing, and Safe Havens. In addition, CoCs must count unsheltered individuals every other year (in odd-numbered years). Each community is responsible for planning, organizing, and carrying out the count locally. [(Point-in-time count and housing inventory count - hud exchange)](https://www.hudexchange.info/programs/hdx/pit-hic/#2025-pit-count-and-hic-guidance)
+The Point-in-Time (PIT) Count is a one-night count conducted in January that provides a snapshot of how many people are experiencing homelessness, both sheltered and unsheltered. HUD requires Continuums of Care (CoCs) to conduct this count each year for people staying in emergency shelters, transitional housing, and Safe Havens. In addition, CoCs must count unsheltered individuals every other year (in odd-numbered years). Each community is responsible for planning, organizing, and carrying out the count locally [(Point-in-time count and housing inventory count - hud exchange)](https://www.hudexchange.info/programs/hdx/pit-hic/#2025-pit-count-and-hic-guidance).
 
 #### NCEI
 
