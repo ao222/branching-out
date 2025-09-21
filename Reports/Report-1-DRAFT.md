@@ -173,3 +173,31 @@ The leaderboard shows several gradient boosting decision tree regression algorit
 | Week 9       | Nov. 23rd  | Presentation Slides|
 | **Presentation** | **Nov. 23rd**  |   |
 | **Final Report** | **Nov. 30th**  |   |
+
+## Credits
+
+This project makes use of the following open-source work:
+
+### Predictive Model Based on Homelessness
+
+- **Author/Organization:**
+Client Team:
+Dr. Tom Byrne
+Associate Professor, School of Social Work, BU
+Dr. Molly Richard
+Postdoctoral Associate, Center for Innovation in Social Science, BU
+
+Instructor: Prof. Thomas Gardos
+
+Technical Project Manager (TPM): Dhruv Shah
+Project Manager (PM): Jasmine Dong
+
+Team Members:
+Syeda Shehrbano Aqeel (team lead)
+Samritha Aadhi Ravikumar
+Kunshu Yang
+Renjie Fan
+Shiheng Xu
+
+- **License:** GNU General Public License v3.0 (GPL-3.0)  
+- **Source:** [https://github.com/BU-Spark/ds-ciss-predictive-homlessness](https://github.com/BU-Spark/ds-ciss-predictive-homlessness)
