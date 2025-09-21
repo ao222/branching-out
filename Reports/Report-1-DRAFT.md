@@ -47,7 +47,7 @@ The BU team investigated the importance of the predictors in the different model
 
 This predictor hierarchy suggests that regions with higher rent burdens and unemployment rates tend to have significantly higher homelessness rates, particularly in highly dense areas.
 
-### Policy and Practical REcommendations
+### Policy and Practical Recommendations
 
 The BU team suggests that policymakers prioritize high-risk communities and stabilize rent by implementing rent control or subsidies. These initiatives would help alleviate housing costs for vulnerable populations. Also, enhancing shelter capacities is vital.
 
