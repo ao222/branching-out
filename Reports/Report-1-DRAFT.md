@@ -120,27 +120,27 @@ NOAA's statewide temperature data comes from thousands of weather stations, chec
 I begin by exploring models using PyCaret. PyCaret is a Python library which automates much of the machine learning workflow. I use it to build and evaluate many predictive models. I chose the overall homeless population per capita as the target variable. I will manually examine the best performing models in more depth. Below is a leaderboard created by my [PyCaret run](https://github.com/ao222/branching-out/blob/32f90c1ebc2594879b1f5dad41c87ec1142d5b06/Misc/automl.ipynb).
 
 ### Leaderboard
-Model|MAE|MSE|RMSE|R2|RMSLE|MAPE|TT (Sec)
-|----|---|---|----|--|-----|----|-------|
-CatBoost Regressor|0.0005|0.0|0.0008|0.7869|0.0008|0.3289|3.692
-Extra Trees Regressor|0.0004|0.0|0.0008|0.7798|0.0008|0.3294|0.28
-Light Gradient Boosting Machine|0.0005|0.0|0.0009|0.7468|0.0009|0.3464|0.316
-Random Forest Regressor|0.0005|0.0|0.0009|0.7315|0.0009|0.3481|0.57
-Gradient Boosting Regressor|0.0006|0.0|0.001|0.6686|0.001|0.4305|0.278
-K Neighbors Regressor|0.0006|0.0|0.001|0.6583|0.001|0.4306|0.08
-Decision Tree Regressor|0.0006|0.0|0.0013|0.4422|0.0013|0.4105|0.048
-Bayesian Ridge|0.0009|0.0|0.0015|0.3382|0.0014|0.7461|0.022
-Least Angle Regression|0.0009|0.0|0.0015|0.3381|0.0014|0.7462|0.028
-Ridge Regression|0.0009|0.0|0.0015|0.3381|0.0014|0.7462|0.044
-Linear Regression|0.0009|0.0|0.0015|0.3381|0.0014|0.7462|9.166
-Orthogonal Matching Pursuit|0.001|0.0|0.0016|0.2296|0.0016|0.847|0.024
-Huber Regressor|0.0009|0.0|0.0016|0.1986|0.0016|0.568|0.036
-Lasso Regression|0.0012|0.0|0.0018|-0.0018|0.0018|1.0766|1.94
-Elastic Net|0.0012|0.0|0.0018|-0.0018|0.0018|1.0766|0.038
-Lasso Least Angle Regression|0.0012|0.0|0.0018|-0.0018|0.0018|1.0766|0.028
-Dummy Regressor|0.0012|0.0|0.0018|-0.0018|0.0018|1.0766|0.024
-AdaBoost Regressor|0.0017|0.0|0.0019|-0.1044|0.0019|1.8322|0.138
-Passive Aggressive Regressor|0.0018|0.0|0.0026|-1.0549|0.0025|1.0|0.026
+| Model Abv. | Model                           | MAE    | MSE | RMSE   | R2      | RMSLE  | MAPE   | TT (Sec) |
+|------------|---------------------------------|--------|-----|--------|---------|--------|--------|----------|
+| catboost   | CatBoost Regressor              | 0.0004 | 0   | 0.0007 | 0.8198  | 0.0007 | 0.2992 | 1.93     |
+| et         | Extra Trees Regressor           | 0.0004 | 0   | 0.0008 | 0.8146  | 0.0008 | 0.2764 | 0.219    |
+| lightgbm   | Light Gradient Boosting Machine | 0.0005 | 0   | 0.0008 | 0.7824  | 0.0008 | 0.3153 | 0.171    |
+| rf         | Random Forest Regressor         | 0.0004 | 0   | 0.0008 | 0.7746  | 0.0008 | 0.305  | 0.635    |
+| gbr        | Gradient Boosting Regressor     | 0.0005 | 0   | 0.0009 | 0.725   | 0.0009 | 0.391  | 0.25     |
+| dt         | Decision Tree Regressor         | 0.0006 | 0   | 0.0011 | 0.5744  | 0.0011 | 0.3784 | 0.031    |
+| lr         | Linear Regression               | 0.0009 | 0   | 0.0014 | 0.3476  | 0.0014 | 0.7438 | 1.025    |
+| ridge      | Ridge Regression                | 0.0009 | 0   | 0.0014 | 0.3476  | 0.0014 | 0.7438 | 0.019    |
+| br         | Bayesian Ridge                  | 0.0009 | 0   | 0.0014 | 0.3476  | 0.0014 | 0.7438 | 0.022    |
+| lar        | Least Angle Regression          | 0.001  | 0   | 0.0015 | 0.2864  | 0.0015 | 0.8023 | 0.035    |
+| en         | Elastic Net                     | 0.0011 | 0   | 0.0016 | 0.1413  | 0.0016 | 0.9777 | 0.019    |
+| lasso      | Lasso Regression                | 0.0011 | 0   | 0.0017 | 0.1103  | 0.0016 | 0.9904 | 0.023    |
+| llar       | Lasso Least Angle Regression    | 0.0011 | 0   | 0.0017 | 0.1103  | 0.0016 | 0.9904 | 0.021    |
+| knn        | K Neighbors Regressor           | 0.0011 | 0   | 0.0017 | 0.0082  | 0.0017 | 0.9656 | 0.029    |
+| dummy      | Dummy Regressor                 | 0.0012 | 0   | 0.0018 | -0.002  | 0.0018 | 1.067  | 0.02     |
+| omp        | Orthogonal Matching Pursuit     | 0.0012 | 0   | 0.0018 | -0.0028 | 0.0018 | 1.0725 | 0.021    |
+| ada        | AdaBoost Regressor              | 0.0017 | 0   | 0.0019 | -0.1903 | 0.0019 | 1.9042 | 0.104    |
+| huber      | Huber Regressor                 | 0.0015 | 0   | 0.0023 | -0.6555 | 0.0022 | 0.8256 | 0.023    |
+| par        | Passive Aggressive Regressor    | 0.0018 | 0   | 0.0025 | -1.073  | 0.0025 | 1      | 0.026    |
 
 The leaderboard shows several gradient boosting decision tree regression algorithms (CatBoost Regressor, Light Gradient Boosting, and Gradient Boosting Regressor) as reducing the RMSE and increasing R^2 the most. I will select CatBoost for further exploration. Also competing with gradient boosting for the top spot are random forest algorithms (Extra Trees Regressor, Random Forest Regressor). I will choose one of these methods to explore further. Therefore, we will pit bagging (random forests) and boosting against each other using two different ensemble learning algorithms. My third chosen method will be the K-Neighbors Regressor, which has the next highest RMSE compared to the bagging and boosting algorithms.
 
