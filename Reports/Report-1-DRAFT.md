@@ -117,7 +117,7 @@ NOAA's statewide temperature data comes from thousands of weather stations, chec
 
 ## Methods
 
-I begin by exploring models using .  is a Python library which automates much of the machine learning workflow. I use it to build and evaluate many predictive models. I chose the overall homeless population per capita as the target variable. I will manually examine the best performing models in more depth. Below is a leaderboard created by my [PyCaret run](../Notebooks/automl.ipynb).
+I begin by exploring models using PyCaret. PyCaret is a Python library which automates much of the machine learning workflow. I use it to build and evaluate many predictive models. I chose the overall homeless population per capita as the target variable. I will manually examine the best performing models in more depth. Below is a leaderboard created by my [PyCaret run](../Notebooks/automl.ipynb).
 
 ### Leaderboard
 | Model Abv. | Model                           | MAE    | MSE | RMSE   | R2      | RMSLE  | MAPE   | TT (Sec) |
