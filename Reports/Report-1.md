@@ -174,6 +174,12 @@ The leaderboard shows several gradient boosting decision tree regression algorit
 | **Presentation** | **Nov. 23rd**  |   |
 | **Final Report** | **Nov. 30th**  |   |
 
+## Works Cited
+Cook, M. (2025, April 18). Finland lowered homelessness by 75% - here’s their secret. Good Good Good. https://www.goodgoodgood.co/articles/finland-homeless-housing-first-approach 
+Homelessness statistics in the world: Causes and facts. DevelopmentAid. (n.d.). https://www.developmentaid.org/news-stream/post/157797/homelessness-statistics-in-the-world 
+Homelessness | OECD. (n.d.). https://www.oecd.org/en/topics/sub-issues/affordable-housing/homelessness.html 
+Systematic Research Review finds benefits of Housing First programs in U.S. outweigh costs. National Low Income Housing Coalition. (2022, November 21). https://nlihc.org/resource/systematic-research-review-finds-benefits-housing-first-programs-us-outweigh-costs 
+
 ## Credits
 
 This project makes use of the following open-source work:
