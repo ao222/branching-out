@@ -32,3 +32,23 @@ There was significant modification to the original plan, including reduced scope
 
 ## Data Providence
 The HIC and PIT counts were obtained by extracting dataframes from a downloaded excel sheet.
+
+## Acquiring ACS Data
+
+The Jupyter Notebook, download_ACS.ipynb, acquires, validates, and processes American Community Survey (ACS) demographic and housing indicators from the U.S. Census Bureau API. This output enables the application of advanced machine learning techniques.
+
+### Methodology and Validation
+
+The download_variables function serves as the foundation for the acquisition process. This function executes the numerous required API calls by generating the full Cartesian product of all desired ACS variables and the targeted time period. The function then unifies the raw results into a single dataframe, indexed by identifiers (GEOID and Year). The function find_all_missing_years validates the documented variables by comparing the expected variables with the retrieved metadata. This process signifies which variables require alternative calculation strategies.
+
+### Addressing Missing Years
+
+The calculation of Median Rent for a 2-bedroom apartment was the most significant complexity addressed for these variables. Since the direct ACS variable (B25031_004E) was absent for the initial years (2009–2014), the notebook downloaded a related set of variables that provide grouped frequency data (counts of units within discrete rent brackets) and applied the standard linear interpolation formula for grouped data: 
+$$Median = L + \frac{\frac{n}{2} - F}{f} \times w$$
+This statistical method provided a median estimate for the missing period, which the notebook subsequently affirmed by comparison with the actual ACS-reported values during the years of overlap.
+Other variables needing correction were the Poverty Rate, Vacancy Rate, and Renter Occupied Rate, which were mathematically constructed by summing their component count variables.
+
+The notebook addressed inconsistencies in the Rent Burdened Rate, a measure of renter households paying over $30\%$ of income toward rent, by correcting for a documentation error that mistakenly referenced owner-occupied units. The function find_all_missing_years indicated that the corrected variables were missing from 2009. The notebook downloads other consistently available variables. 
+The final, and perhaps most granular, effort involved the Unemployment Rate, which lacked data for the 2009-2010 period. To produce a seamless dataset, the notebook manually aggregated and summed the counts of the unemployed and the labor force across numerous age and gender-specific cohorts to reconstruct the total figures for the missing years.
+
+The culmination of this entire notebook is the production of a single, unified ACS_data.csv DataFrame. This consolidated resource represents a validated, temporally consistent, and reproducible input dataset.
