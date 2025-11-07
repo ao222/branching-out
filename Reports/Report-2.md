@@ -28,3 +28,7 @@
 | **Presentation** | **Nov. 23rd**  |   || Nov. 19 |
 | **Final Report** | **Nov. 30th**  |   |
 
+There was significant modification to the original plan, including reduced scope and due dates moved. These modifications were caused by significant unforseen complexities in obtaining the dataset. The revised plan with updated due dates is above along with current completed tasks.
+
+## Data Providence
+The HIC and PIT counts were obtained by extracting dataframes from a downloaded excel sheet.
