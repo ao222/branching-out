@@ -1,8 +1,6 @@
-## Original Schedule
+## Task Schedule
 
-## Tentative Task Schedule
-
-| Week Number  | Due Date   | Task| Completed | Pending |
+| Week Number  | Original Due Date   | Task| Completed Date | Pending Due Date |
 |--------------|------------|------|----------|---------|
 | Week 1       | Sept. 27th | Gather ACS Tables| Oct. 31 | |
 |        |  | Merge ACS Tables, Coc Counts, NOAA Weather Data| Oct. 31| |
