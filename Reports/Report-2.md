@@ -55,3 +55,20 @@ The notebook addressed inconsistencies in the Rent Burdened Rate, a measure of r
 The final, and perhaps most granular, effort involved the Unemployment Rate, which lacked data for the 2009-2010 period. To produce a seamless dataset, the notebook manually aggregated and summed the counts of the unemployed and the labor force across numerous age and gender-specific cohorts to reconstruct the total figures for the missing years.
 
 The culmination of this entire notebook is the production of a single, unified ACS_data.csv DataFrame. This consolidated resource represents a validated, temporally consistent, and reproducible input dataset.
+
+## Visualizations
+
+### Histograms
+![histograms](Visualizations/UHD/histograms.png)
+
+### Box Plots
+![boxpplots](Visualizations/UHD/boxplots.png)
+
+### Violin Plots
+![violin plots](Visualizations/UHD/violinplots.png)
+
+### Scatter Plots
+![scatter plots](Visualizations/UHD/scatterplot.png)
+
+### Heatmap
+![heatmap](Visualizations/UHD/heatmap_of_correlations.png)
