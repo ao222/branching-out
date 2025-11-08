@@ -30,8 +30,8 @@
 
 There was significant modification to the original plan, including reduced scope and due dates moved. These modifications were caused by significant unforseen complexities in obtaining the dataset. The revised plan with updated due dates is above along with current completed tasks.
 
-## Data Providence
-The HIC and PIT counts were obtained by extracting dataframes from a downloaded excel sheet.
+## Acquiring HIC Counts Data
+The HIC_count_preparation.ipynb file processes annual Homeless Inventory Count (HIC) data. The data from 2007 to 2024 is from a multi-sheet Excel file named 2007-2024-HIC-Counts-by-CoC.xlsx. Using the pandas library, the code iterates through each sheet extracting the relevant data, and renames the first two columns. Next, the code adds a column to each DataFrame saving the year information. The DataFrames representing each year are concatenated into a single DataFrame called HIC_count. Finally, the dataset is saved to a CSV file named "hic_counts.csv".
 
 ## Acquiring ACS Data
 
