@@ -59,16 +59,16 @@ The culmination of this entire notebook is the production of a single, unified A
 ## Visualizations
 
 ### Histograms
-![histograms](Visualizations/UHD/histograms.png)
+![histograms](../Visualizations/UHD/histograms.png)
 
 ### Box Plots
-![boxpplots](Visualizations/UHD/boxplots.png)
+![boxpplots](../Visualizations/UHD/boxplots.png)
 
 ### Violin Plots
-![violin plots](Visualizations/UHD/violinplots.png)
+![violin plots](../Visualizations/UHD/violinplots.png)
 
 ### Scatter Plots
-![scatter plots](Visualizations/UHD/scatterplot.png)
+![scatter plots](../Visualizations/UHD/scatterplot.png)
 
 ### Heatmap
-![heatmap](Visualizations/UHD/heatmap_of_correlations.png)
+![heatmap](../Visualizations/UHD/heatmap_of_correlations.png)
