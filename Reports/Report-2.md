@@ -35,7 +35,7 @@ The [HIC_count_preparation.ipynb](Notebooks/HIC_count_preparation.ipynb) file pr
 
 ## Acquiring ACS Data
 
-The Jupyter Notebook, download_ACS.ipynb, acquires, validates, and processes American Community Survey (ACS) demographic and housing indicators from the U.S. Census Bureau API. This output enables the application of advanced machine learning techniques.
+The Jupyter Notebook, [Acquire_ACS_Data.ipynb](Notebooks/Acquire_ACS_Data.ipynb), acquires, validates, and processes American Community Survey (ACS) demographic and housing indicators from the U.S. Census Bureau API. This output enables the application of advanced machine learning techniques.
 
 ### Methodology and Validation
 
