@@ -1,4 +1,4 @@
-## Task Schedule
+## Updated Task Schedule
 
 There was significant modification to the original plan, including reduced scope and due dates moved back. These modifications were caused by significant unforseen complexities in obtaining the dataset. The revised plan with updated due dates is below along with current completed tasks.
 
