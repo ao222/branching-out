@@ -1,5 +1,7 @@
 ## Task Schedule
 
+There was significant modification to the original plan, including reduced scope and due dates moved back. These modifications were caused by significant unforseen complexities in obtaining the dataset. The revised plan with updated due dates is below along with current completed tasks.
+
 | Week Number  | Original Due Date   | Task| Completed Date | Pending Due Date |
 |--------------|------------|------|----------|---------|
 | Week 1       | Sept. 27th | Gather ACS Tables| Oct. 31 | |
@@ -27,8 +29,6 @@
 | Week 9       | Nov. 23rd  | Presentation Slides|| Nov. 19 |
 | **Presentation** | **Nov. 23rd**  |   || Nov. 19 |
 | **Final Report** | **Nov. 30th**  |   |
-
-There was significant modification to the original plan, including reduced scope and due dates moved. These modifications were caused by significant unforseen complexities in obtaining the dataset. The revised plan with updated due dates is above along with current completed tasks.
 
 ## Acquiring PIT Count Data
 The file [PIT_count_preparation.ipynb](Notebooks/PIT_count_preparation.ipynb) acquires annual Point-in-Time (PIT) Homeless Count data.  Sourced from a downloaded excel file (2007-2024-PIT-Counts-by-CoC.xlsb). The script uses the pandas library to read all sheets and then iterates through them, selecting sheets with year names between 2009 and 2024. For each selected year, a 'year' column is added. The data from these annual sheets is then concatenated, and a specific subset of nine key columns is selected to create a new dataset. The script cleans this dataset by dropping rows with more than four missing values to remove non-CoC-count information. Finally it saves the dataset into a CSV file.
