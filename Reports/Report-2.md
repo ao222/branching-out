@@ -56,6 +56,14 @@ The final, and perhaps most granular, effort involved the Unemployment Rate, whi
 
 The culmination of this entire notebook is the production of a single, unified ACS_data.csv DataFrame. This consolidated resource represents a validated, temporally consistent, and reproducible input dataset.
 
+## Aggregating and Merging Datasets
+
+This Jupyter notebook includes a multi-step workflow for merging and aggregating three distinct datasets. The Point-in-Time (PIT) counts, Housing Inventory Count (HIC) data, and American Community Survey (ACS) data are merged into one single dataset. The core challenge is addressing the mismatch between the geographic boundaries of the CoC (Continuum of Care) areas (used by the PIT and HIC data) and the GEOID/County FIPS areas (used by the ACS data).
+
+To resolve this geographic discrepancy, the notebook first reads a separate county_coc_match.csv file that serves as a bridge between County FIPS codes and CoC numbers. Using the networkx library, it constructs a network graph in which edges connect the associated County FIPS and CoC Numbers. This network is then analyzed to identify 347 connected components, or "Groups," each representing a collection of counties and CoCs whose boundaries overlap or are coterminous. A lookup map is created to assign a unique Group_Number to every County GEOID and CoC Number in the three primary datasets.
+
+The final stage of the notebook involves aggregating the data by the newly created Group_Number and year. The ACS data is aggregated using summation for numerators and mean for central tendencies. The PIT and HIC datasets (which contain homeless and bed counts) are aggregated by summation. Finally, these three aggregated dataframes are merged on Group_Number and year to form the Final_Data_Set. The notebook then calculates final rates using the aggregated numerators and denominators, and saves the resulting unified dataframe to a CSV file.
+
 ## Visualizations
 
 ### Histograms
