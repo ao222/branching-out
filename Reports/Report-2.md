@@ -86,6 +86,8 @@ Despite the stable shape, several metrics show clear, progressive trends in thei
 ### Scatter Plots
 ![scatter plots](../Visualizations/UHD/scatterplot.png)
 
+The pairwise scatter plot reveals several strong and weak correlations among the variables. Poverty Rate and Median Income display a negative linear correlation. Poverty Rate also shows a strong positive correlation with the Unemployment Rate. These correlations showcase the predictable relationship between economic hardship and joblessness. Relationships involving housing costs are complex; while Median Gross Rent generally rises with Median Income, the scatter increases dramatically at higher income levels, indicating greater variability in high rents. In contrast to these tightly coupled variables, the Vacancy Rate shows minimal to no correlation with nearly all other socio-economic factors, appearing largely independent of both the economic health and the ownership status of the regions under study.
+
 ### Heatmap
 ![heatmap](../Visualizations/UHD/heatmap_of_correlations.png)
 
