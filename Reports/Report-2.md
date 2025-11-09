@@ -61,14 +61,38 @@ The culmination of this entire notebook is the production of a single, unified A
 ### Histograms
 ![histograms](../Visualizations/UHD/histograms.png)
 
+This visualization shows ten different histograms. Each histogram shows the distribution of a variable in the dataset across geographic areas and the years of interest. By analyzing their shapes, skewness, central tendency, and spread, we can group these metrics into distinct distribution categories.
+
+The first group, Distribution of Beds, Distribution of Total Population, and Distribution of Homeless_Per_Capita, exhibits a strong right skew. Most values appear clustered on the low end, and the distribution trails off sharply, extending to a few small values at the high end. A small number of geographic area/year combinations have extremely high values. For these variables, the median is significantly lower than the mean, and there are a small number of large values compared to a large number of small values.
+
+The second group, Central_Tendency_Rent, Central_Tendency_Income, Poverty_Rate, Vacancy_Rate, and Unemployment_Rate, shows a moderate right skew but has a much more gradual decline than the first group. These distributions resemble a slightly stretched bell curve, where the drop-off is not as severe and a significant portion of the data falls in the midrange.
+
+Finally, the distributions of Renter_Occupied_Rate and Rent_Burdened_Rate stand out as the only approximately symmetric distributions. The lack of extreme skewness here suggests that the overall variation across entities is relatively balanced, unlike that of the other eight variables.
+
 ### Box Plots
 ![boxpplots](../Visualizations/UHD/boxplots.png)
 
+Overall, the boxplots summarize the distributions of the data, revealing that most metrics are positively skewed, with the greatest differences in skew severity and the number of extreme outliers. Again, the boxplots reveal three main groupings of variables: one group with extreme right skew, one with moderate right skew, and one nearly symmetrical.
+
 ### Violin Plots
 ![violin plots](../Visualizations/UHD/violinplots.png)
+
+These ten violin plots visualize the annual distribution of socio-economic indicators. They provide insight into how the spread and central tendency of these metrics have evolved. The wider the violin is, the more common that value is in the data set. The innermost line marks the median, and the outer two lines represent the interquartile range (IQR).
+
+A strong trend across all ten metrics is the consistency and stability of their underlying distributions over the entire 15-year period. In most plots, the overall shape and skewness of the violins remain virtually unchanged year-over-year. The distributions for Beds, Total_Population, and Homeless_Per_Capita exhibit an extreme right skew across all years, with the bulk of the data clustered at the low end and a very long, thin tail extending upward to high values. Conversely, metrics like Renter_Occupied_Rate, Rent_Burdened_Rate, and Unemployment_Rate exhibit more symmetric, centrally distributed patterns across all years, with most data points clustered in a tighter middle range.
+
+Despite the stable shape, several metrics show clear, progressive trends in their central tendency (median) over time. Central_Tendency_Rent and Central_Tendency_Income both show a consistent upward trend in their median values and the overall distribution location, reflecting general economic growth and/or inflation. In contrast, Unemployment_Rate generally shows a downward trend in its median after the initial years, indicating an improvement in employment. The spread for most indicators, such as Poverty_Rate and Vacancy_Rate, remains relatively uniform across years.
 
 ### Scatter Plots
 ![scatter plots](../Visualizations/UHD/scatterplot.png)
 
 ### Heatmap
 ![heatmap](../Visualizations/UHD/heatmap_of_correlations.png)
+
+This visualization is a correlation heatmap showing the linear relationships between ten numerical features.
+
+The heatmap highlights several key relationships. The strongest positive correlation is between Central_Tendency_Rent and Central_Tendency_Income. This indicates that areas with higher average income tend to have higher average rents. The strongest negative correlation is between Poverty_Rate and Central_Tendency_Income, which is an expected inverse relationship: areas with higher average incomes tend to have lower poverty rates. Additionally, Beds and Total_Population show a strong positive correlation, suggesting that shelter bed capacity scales with population size. 
+
+Several other relationships are consistent with expected economic dynamics. Because high joblessness often leads to higher poverty it is expected that Poverty_Rate shows a moderate positive correlation with Unemployment_Rate. Conversely, Poverty_Rate is moderately negatively correlated with Central_Tendency_Rent and Vacancy_Rate, suggesting that areas with lower rent and fewer vacant units might have higher poverty. The Rent_Burdened_Rate exhibits a moderate positive correlation with Central_Tendency_Rent and Unemployment_Rate, indicating that high rent and high joblessness contribute to households being burdened by rent costs.
+
+Many variables show very weak or negligible correlation. As an example, Total_Population has near-zero correlation with almost all other socio-economic indicators, implying that simply having a large population doesn't strongly predict the area's poverty or income levels.
