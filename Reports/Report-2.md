@@ -58,7 +58,7 @@ The culmination of this entire notebook is the production of a single, unified A
 
 ## Aggregating and Merging Datasets
 
-This Jupyter notebook includes a multi-step workflow for merging and aggregating three distinct datasets. The Point-in-Time (PIT) counts, Housing Inventory Count (HIC) data, and American Community Survey (ACS) data are merged into one single dataset. The core challenge is addressing the mismatch between the geographic boundaries of the CoC (Continuum of Care) areas (used by the PIT and HIC data) and the GEOID/County FIPS areas (used by the ACS data).
+The Jupyter notebook [merge_datasets.ipynb](../Notebooks/merge_datasets.ipynb) includes a multi-step workflow for merging and aggregating three distinct datasets. The Point-in-Time (PIT) counts, Housing Inventory Count (HIC) data, and American Community Survey (ACS) data are merged into one single dataset. The core challenge is addressing the mismatch between the geographic boundaries of the CoC (Continuum of Care) areas (used by the PIT and HIC data) and the GEOID/County FIPS areas (used by the ACS data).
 
 To resolve this geographic discrepancy, the notebook first reads a separate county_coc_match.csv file that serves as a bridge between County FIPS codes and CoC numbers. Using the networkx library, it constructs a network graph in which edges connect the associated County FIPS and CoC Numbers. This network is then analyzed to identify 347 connected components, or "Groups," each representing a collection of counties and CoCs whose boundaries overlap or are coterminous. A lookup map is created to assign a unique Group_Number to every County GEOID and CoC Number in the three primary datasets.
 
